@@ -1,0 +1,967 @@
+filename	sample_name	description	sample_type_common	dna_extracted	fermented	fermentation_day	371	2813	659	111243	8345	2627	1453	594	131	2550	162573	187158	340197
+G79195_5x_BC3_01_19971.mzXML	11442.G79195	unbleached all purpose flour	flour	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+AMZ_40_RD11_01_48984.mzXML	AMZ_40	Manoco	cassava flour	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86951_1x_rerun_RD9_01_26491.mzXML	11442.G86951	straus organic whole milk (goes with 1/23/18 homemade yogurt sample G87456)	milk	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+15NAVY01_v1_brk_3_GC4_01_39547.mzXML	15NAVY01_v1_brk_3	Bread White, Aspen	bread	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_2.S_P1.T0_BA2_01_13087.mzXML	CW2_P1_T0	Newtown Pippen	apple juice	TRUE	yes	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_37.S_G1.T0_BC2_01_13111.mzXML	CW37_G1_T0	Granny Smith	apple juice	TRUE	yes	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_72.S_R1.T0_BE2_01_13135.mzXML	CW72_S_R1_T0	Ribston Pippen	apple juice	TRUE	yes	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+cw 36 61. skin_1x_RE12_01_21691.mzXML	CW36_G1_skin	Granny Smith	apple skin	TRUE	yes	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cw1. PI. skin_1x_RC12_01_21689.mzXML	CW1_P1_skin	Newtown Pippen	apple skin	TRUE	yes	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cw71.R1.skin_G86763_5x_witt_RB12_01_21687.mzXML	CW71_R1_skin	Ribston Pippen	apple skin	TRUE	yes	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+18NAVY27_v1_brk_2_BB3_01_39772.mzXML	18NAVY27_v1_brk_2	Bagel Plain 4/15	bagel	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+18NAVY27_v1_lun_1_rerun_BB4_01_39706.mzXML	18NAVY27_v1_lun_1	Bread, Multi-grain, Aspen with oat	bread	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87503_1x_BB2_01_26380.mzXML	11442.G87503	Red Trolley Ale; Karl Strauss	ale	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87513_1x_RG5_01_26457.mzXML	11442.G87513	Saint Archer Blonde Ale; 4.8% alc/vol	ale	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74076_1x_RB11_01_18619.mzXML	11442.G74076	cider vinegar	apple cider vinegar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75764_1x_RG10_01_18587.mzXML	11442.G75764	apple cider vinegar w/ mother	apple cider vinegar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87405_RE5_01_26163.mzXML	11442.G87405	soft wheat	wheat	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78926_rerun_5ul_RD4_01_17754.mzXML	11442.G78926	soft white wheat berries	grain	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75121_2x_rerun_RG8_01_19444.mzXML	11442.G75121	bagel; from Einstein bagel	bagel	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G78967_RG4_01_17626.mzXML	11442.G78967	hulless barley	grain	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72464_10x_BG5_01_17922.mzXML	11442.G72464	Pacifico beer	beer	TRUE	yes	liquid sample yellow	0	0	0	0	0	0	0	0	0	1	0	0	0
+75261_1x_rerun_BB6_01_21458.mzXML	11442.G75261	H.L.V. ale	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75262_1x_rerun_BA6_01_21393.mzXML	11442.G75262	Pilsner beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75264_1x_BE6_01_20754.mzXML	11442.G75264	IPA	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73985_1x_10ul_RC5_01_18610.mzXML	11442.G73985	alpirsbacher beer (5.2% alc/vol)	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G74001_1x_RH10_01_18602.mzXML	11442.G74001	San Miguel beer (5.4% alc/vol)	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74041_1x_RE4_01_18555.mzXML	11442.G74041	pizza port beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G74042_1x_10ul_RC3_01_18608.mzXML	11442.G74042	Pabst Blue Ribbon	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G74044_1x_RD3_01_18540.mzXML	11442.G74044	Panic IPA Track Seven	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74045_1x_RB5_01_18613.mzXML	11442.G74045	XOCOVEZA Mocha Start	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74047_1x_10ul_RA4_01_18502.mzXML	11442.G74047	Weihenstephaner Hefe Weissbier	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G74048_1x_RF3_01_18568.mzXML	11442.G74048	Green's IPA	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74050_1x_RG3_01_18581.mzXML	11442.G74050	Koshihikari echigo beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G74121_1x_RF9_01_18574.mzXML	11442.G74121	warsteiner beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75763_1x_RB9_01_18617.mzXML	11442.G75763	berliner weisse beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G83430_1x_rerun_RE6_01_26502.mzXML	11442.G83430	Stone Ruination Double IPA beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G83432_1x_RG6_01_26458.mzXML	11442.G83432	Cali Creamer beer	beer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74120_1x_10ul_RD9_01_19821.mzXML	11442.G74120	matcha drink	beverage	TRUE	yes	green	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87500_1x_rerun_RD2_01_26512.mzXML	11442.G87500	Barefoot bubbles; brut cuvee	beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86961_1x_RC9_01_23517.mzXML	11442.G86961	aromatic bitters (44.7% alc/vol)	bitters	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75859_1x_rerun_RE7_01_26482.mzXML	11442.G75859	Black Tea, Nestea [leaves from Nilgiri]	black tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74082_1x_RD5_01_18542.mzXML	11442.G74082	pear brandy julischka (25%alc/vol)	brandy	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79233_5x_BB11_01_19965.mzXML	11442.G79233	bread	bread	TRUE	yes	0.0597	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79241_5x_rerun_BC11_01_20082.mzXML	11442.G79241	pita bread	bread	TRUE	yes	0.1632	0	0	0	0	0	0	0	0	0	0	1	0	0
+G79242_5x_BF11_01_20030.mzXML	11442.G79242	pita bread	bread	TRUE	yes	0.2276	0	0	0	0	0	0	0	0	0	0	0	0	0
+18NAVY28_v1_lun_4_BF2_01_39681.mzXML	18NAVY28_v1_lun_4	Bread Whole Wheat , Aspen	bread	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+18NAVY28_v2_lun_7_BD7_01_39700.mzXML	18NAVY28_v2_lun_7	Bread Whole Wheat , Aspen	bread	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72462_10x_BF7_01_17855.mzXML	11442.G72462	Country potato white bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72463_p1_g7_GD4_01_21938.mzXML	11442.G72463	Borodinsky rye bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72481_5x_rerun_10ul_RD2_01_19581.mzXML	11442.G72481	sourdough loaf (Whole foods)	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72767_BG7_01_19040.mzXML	11442.G72767	Wheat bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72782_10x_BF3_01_17851.mzXML	11442.G72782	sandwich bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73468_5x_rerun_10ul_RA6_01_19584.mzXML	11442.G73468	rye bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73995_5x_RC3_01_19489.mzXML	11442.G73995	bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74019_5x_RB3_01_19487.mzXML	11442.G74019	bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75691_2x_RC6_01_19130.mzXML	11442.G75691	bread roll	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G78804_1x_BF7_01_19543.mzXML	11442.G78804	bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G78974_2x_RA11_01_19107.mzXML	11442.G78974	Whole grain bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G79251_1x_BF9_01_20221.mzXML	11442.G79251	steak crostini bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G83202_5x_RD7_01_21446.mzXML	11442.G83202	crust of multigrain loaf from wholefoods	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86753_1x_BB7_01_23140.mzXML	11442.G86753	multi-grain bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86789_1x_BA3_01_23117.mzXML	11442.G86789	boston sourdough loaf, white part of bread, from whole foods la jolla	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86894_1x_BA11_01_23126.mzXML	11442.G86894	Organic Paesano Bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87348_RD5_01_26115.mzXML	11442.G87348	Pandoro	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87408_1x_BD5_01_26032.mzXML	11442.G87408	grissini	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87410_1x_BD4_01_26031.mzXML	11442.G87410	panettone classic	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87451_1x_BD2_01_26029.mzXML	11442.G87451	sliced bread	bread	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+RB9_tk2_RB9_01_49122.mzXML	F19_black.bread	black.bread	bread	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	1	0	0	0
+RC2_RC2_01_49079.mzXML	F23_white.bread	white.bread	bread	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79270_5x_BG2_01_20035.mzXML	11442.G79270	plain bread crumbs	bread crumbs	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86825_1x_BA6_01_23120.mzXML	11442.G86825	Japanese Style Panko Breadcrumbs	bread crumbs	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+15NAVY01_v1_sup_3_rerun_GF4_01_39663.mzXML	15NAVY01_v1_sup_3	**Roll, WHEAT, Aspen 4/15	bread roll	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73999_5x_10ul_RG3_01_19552.mzXML	11442.G73999	bread - rosinen broetchen	bread roll	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74058_1x_BF2_01_21383.mzXML	11442.G74058	california kimchi brine	brine	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+74059_1x_BG2_01_20767.mzXML	11442.G74059	silly dilly kraut brine	brine	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75728_1x_10ul_RA6_01_18504.mzXML	11442.G75728	pickled watermelon juice	brine	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75727_1x_10ul_RC9_01_18535.mzXML	11442.G75727	champagne	brut	TRUE	yes	yellow	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74068_1x_10ul_RC7_01_18530.mzXML	11442.G74068	red wine, cabernet sauvignon	cabernet sauvignon	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74063_1x_RF4_01_18569.mzXML	11442.G74063	Chateau Ste Michelle red wine	cabernet sauvignon	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75252_1x_RH9_01_18601.mzXML	11442.G75252	Kinsella estates wine 3 a from bottle; b from glass, undrunk; cabernet sauvignon 2012	cabernet sauvignon	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75257_1x_RB10_01_18618.mzXML	11442.G75257	Palmaz vineyards Wine 2.; cabernet sauvignon	cabernet sauvignon	TRUE	yes	red	0	0	0	0	0	1	0	0	0	0	0	0	0
+G86915_1x_rerun_BD6_01_26611.mzXML	11442.G86915	havarti cheese (sampled 1/23 frozen 1/25 8:30AM)	cheese	TRUE	yes	microbial rennet	0	0	0	0	0	0	0	0	0	0	0	0	0
+16NAVY10_v2_lun_5_GH10_01_39655.mzXML	16NAVY10_v2_lun_5	**Cheese American, sliced 11/22	cheese	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72473_5x_BA12_01_18267.mzXML	11442.G72473	dubliner cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72642_5x_BA6_01_18261.mzXML	11442.G72642	Flagship reserve	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G72643_5x_BE4_01_18315.mzXML	11442.G72643	stilton colston basset	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72644_5x_BF7_01_18332.mzXML	11442.G72644	stilton colston basset	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72645_5x_BD10_01_18307.mzXML	11442.G72645	taleggio	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72646_5x_BE8_01_18319.mzXML	11442.G72646	taleggio	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72647_5x_BC9_01_18292.mzXML	11442.G72647	stinking bishop	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72648_5x_BH7_01_18405.mzXML	11442.G72648	stinking bishop	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72649_5x_BB2_01_18271.mzXML	11442.G72649	honey bee goat gouda	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G72650_5x_BC3_01_18286.mzXML	11442.G72650	lambchopper	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72651_5x_BC5_01_18288.mzXML	11442.G72651	le petit basque	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72652_5x_BG4_01_18388.mzXML	11442.G72652	tomme brulee	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72653_5x_BC8_01_18291.mzXML	11442.G72653	Flagship reserve	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72655_5x_BG5_01_18389.mzXML	11442.G72655	shropshire	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72656_5x_BE3_01_18314.mzXML	11442.G72656	erborinato san carione	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G72668_5x_BH6_01_18404.mzXML	11442.G72668	Kraft Reduced fat Parmesan cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72703_10x_BB10_01_17892.mzXML	11442.G72703	Cheese, iberico, Trader Joe's	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72704_10x_5uL_rerun_BA10_01_17908.mzXML	11442.G72704	Cheese, manchego, Trader Joe's	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72712_10x_BE9_01_17845.mzXML	11442.G72712	red wine cheese Costco sample Queso de Murcia al Vino Palacares	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72713_10x_BF9_01_17857.mzXML	11442.G72713	cheese sample, Costco Marin French Cheese; brie	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72727_5x_BH9_01_18407.mzXML	11442.G72727	Ol Sciur	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G72728_5x_BA9_01_18264.mzXML	11442.G72728	not collected	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72729_5x_BA10_01_18265.mzXML	11442.G72729	memoire	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72730_5x_BD6_01_18303.mzXML	11442.G72730	moliterno	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72731_5x_BH10_01_18408.mzXML	11442.G72731	Boschetto	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72749_10x_BG2_01_17920.mzXML	11442.G72749	cheese, organic cheddar, Costco	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72777_5x_BB12_01_18281.mzXML	11442.G72777	midnight moon cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G72792_5x_BE10_01_18321.mzXML	11442.G72792	Sonoma Jack Hot Pepper Jack Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72793_5x_BA7_01_18262.mzXML	11442.G72793	Sonoma Jack Traditional Jack Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72794_5x_BB4_01_18273.mzXML	11442.G72794	Sonoma Jack Cheddar Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72795_5x_BF10_01_18335.mzXML	11442.G72795	Sonoma Jack Garlic Jack Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73469_5x_BE9_01_18320.mzXML	11442.G73469	blue cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73638_5x_10ul_BH9_01_19760.mzXML	11442.G73638	cheese, CMI workshop	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73649_5x_BA8_01_18263.mzXML	11442.G73649	bianco sardo	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73651_5x_BE6_01_18317.mzXML	11442.G73651	Cahil Porter	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73652_5x_BB7_01_18276.mzXML	11442.G73652	Red Dragon	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73653_5x_BG8_01_18392.mzXML	11442.G73653	cheddar cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73654_5x_BD8_01_18305.mzXML	11442.G73654	cheddar cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73655_5x_BB9_01_18278.mzXML	11442.G73655	Ten Year Sharp Cheddar	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73656_5x_BA5_01_18260.mzXML	11442.G73656	pecorinotoscano	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73657_5x_BF4_01_18329.mzXML	11442.G73657	abbaye de belloc	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73658_5x_BE5_01_18316.mzXML	11442.G73658	abbaye de belloc	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73659_5x_BC7_01_18290.mzXML	11442.G73659	ewephoria	cheese	TRUE	yes	none	0	0	0	0	0	1	0	0	0	0	1	0	0
+G73660_5x_BB8_01_18277.mzXML	11442.G73660	fiore sardo	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73661_5x_BF9_01_18334.mzXML	11442.G73661	sarro di bufala	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73662_5x_BF8_01_18333.mzXML	11442.G73662	sarro di bufala	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73663_5x_BD9_01_18306.mzXML	11442.G73663	garrotxa	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73664_5x_BG10_01_18394.mzXML	11442.G73664	garrotxa	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73665_5x_BA11_01_18266.mzXML	11442.G73665	manchego	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73666_5x_BD4_01_18301.mzXML	11442.G73666	manchego al ramero	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73667_5x_BG9_01_18393.mzXML	11442.G73667	Drunken Goat	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73668_5x_BF5_01_18330.mzXML	11442.G73668	ossau-iraty	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73669_5x_BH2_01_18400.mzXML	11442.G73669	ossau-iraty	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73670_5x_BC11_01_18294.mzXML	11442.G73670	good thunder	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73671_5x_BB5_01_18274.mzXML	11442.G73671	harbison	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73672_5x_BH8_01_18406.mzXML	11442.G73672	harbison	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73673_5x_BC10_01_18293.mzXML	11442.G73673	ovelha amanteigado	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73674_5x_BH4_01_18402.mzXML	11442.G73674	epoisse	cheese	TRUE	yes	none	1	0	0	0	0	0	0	0	0	0	1	0	0
+G73675_5x_BE7_01_18318.mzXML	11442.G73675	epoisse	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73676_5x_BH3_01_18401.mzXML	11442.G73676	delice de bourgogone	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73677_5x_BD2_01_18299.mzXML	11442.G73677	robiola bosina	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73678_5x_BG6_01_18390.mzXML	11442.G73678	brie de meaux	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73679_5x_BB11_01_18280.mzXML	11442.G73679	camembert fermier	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73680_5x_BD3_01_18300.mzXML	11442.G73680	monte enebro	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73681_5x_BG3_01_18387.mzXML	11442.G73681	chabichou du poitou	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73683_5x_BA4_01_18259.mzXML	11442.G73683	alp blossom	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73684_5x_BD7_01_18304.mzXML	11442.G73684	monte enebro	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73685_5x_BD5_01_18302.mzXML	11442.G73685	boucherondia	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73686_5x_BF3_01_18328.mzXML	11442.G73686	chabichou du poitou	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73687_5x_BB6_01_18275.mzXML	11442.G73687	lagrein	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73688_5x_BG2_01_18386.mzXML	11442.G73688	vacherin fribourgeois	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73689_5x_BC4_01_18287.mzXML	11442.G73689	alp blossom, flower-covered rind	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73690_5x_BG7_01_18391.mzXML	11442.G73690	red witch	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73694_5x_BB3_01_18272.mzXML	11442.G73694	burrata mozzarela	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73726_5x_BF6_01_18331.mzXML	11442.G73726	good thunder	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73727_5x_BC12_01_18295.mzXML	11442.G73727	ParmagianoReggiano	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73728_5x_BB10_01_18279.mzXML	11442.G73728	Roquefort Papillon	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73964_1x_BF7_01_23203.mzXML	11442.G73964	burrata mozzarella	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74007_5x_BH12_01_18410.mzXML	11442.G74007	raclette cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74022_5x_BG11_01_18395.mzXML	11442.G74022	cheese, brie	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74023_5x_BE11_01_18322.mzXML	11442.G74023	cheese, gouda with cumin	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74024_5x_BH5_01_18403.mzXML	11442.G74024	cheese, gouda	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75087_5x_BF2_01_18327.mzXML	11442.G75087	cheddar cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75651_5x_10ul_BF8_01_19737.mzXML	11442.G75651	havarti cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78984_5x_10ul_BC8_01_19678.mzXML	11442.G78984	Dutch Traditional Gouda Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79207_5x_10ul_BH8_01_19759.mzXML	11442.G79207	Jalapeno jack cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79210_5x_BC6_01_18289.mzXML	11442.G79210	gouda	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79243_5x_10ul_rerun_BG8_01_19766.mzXML	11442.G79243	cheese ball	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79274_5x_BA2_01_18256.mzXML	11442.G79274	feta cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79486_5x_BD12_01_19634.mzXML	11442.G79486	havarti cheese trader joes sliced; plastic packaging	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79565_5x_10ul_RG5_01_19554.mzXML	11442.G79565	feta	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G83323_5x_RD11_01_21466.mzXML	11442.G83323	herbed goat cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86786_1x_BE9_01_23190.mzXML	11442.G86786	dubliner natural cheese, from costco (Kerrygold)	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86807_1x_BF8_01_23204.mzXML	11442.G86807	parmesan cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86876_1x_BE11_01_23192.mzXML	11442.G86876	havarti cheese (365 brand)	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87334_RC7_01_26103.mzXML	11442.G87334	Parmiggiano Reggiano DOP	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G87336_RC9_01_26105.mzXML	11442.G87336	ricotta cow	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87337_RC10_01_26106.mzXML	11442.G87337	Parmiggiano Reggiano DOP 30 months	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G87338_RC11_01_26107.mzXML	11442.G87338	Pecorino Crusca Antico 2 years	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87398_RC12_01_26108.mzXML	11442.G87398	sweet Provolone cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G87411_1x_BF7_01_26130.mzXML	11442.G87411	truffle cow cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87412_1x_BF6_01_26129.mzXML	11442.G87412	squaqquerello cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87413_1x_BF5_01_26127.mzXML	11442.G87413	goat cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87414_1x_BF4_01_26126.mzXML	11442.G87414	goat cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87478_1x_rerun_BE2_01_26601.mzXML	11442.G87478	cheese McD	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87485_1x_rerun_BH5_01_26652.mzXML	11442.G87485	Cheese from Louis (daniel? manchego)	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87486_1x_rerun_BG5_01_26640.mzXML	11442.G87486	Raclette rind	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87487_1x_BF5_01_26625.mzXML	11442.G87487	Raclette curd	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87488_1x_BH6_01_26653.mzXML	11442.G87488	Crumbled Goat Cheese	cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+RC8_RC8_01_49086.mzXML	F29_goat.cheese	goat.cheese	cheese	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	0	0	0	0
+Amazon_3_2x_RA3_01_21598.mzXML	amazon_3	Small_red_hot_chili_pepper	pepper	not entered	no	not applicable	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86921_1x_BC5_01_23151.mzXML	11442.G86921	Lee Kum Lee Sriracha Chili Sauce	sriracha chili sauce	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79670_5x_10ul_RF10_01_19556.mzXML	11442.G79670	5 Ssamjang- Fermented soybean chili paste back	chili paste	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79671_5x_10ul_RH10_01_19578.mzXML	11442.G79671	6 Gochujang fermented chili paste back	chili paste	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79672_5x_RB10_01_19482.mzXML	11442.G79672	7 Gochujang fermented chili paste(1)	chili paste	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79673_5x_RC10_01_19498.mzXML	11442.G79673	8 Sriracha	chili paste	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72509_5x_RB6_01_19477.mzXML	11442.G72509	cacao nib, Trader Joe's	chocolate	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79725_5x_BG10_01_19666.mzXML	11442.G79725	chocolate	chocolate	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79726_5x_BH12_01_19705.mzXML	11442.G79726	dark chocolate truffle	chocolate	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86885_1x_BG3_01_23214.mzXML	11442.G86885	dark chocolate sea salt and nibs; madecasse brand; 63% cocoa; best before 03/13/2019; sampled 2017-12-03 22:00	chocolate	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87361_1x_BD11_01_26044.mzXML	11442.G87361	dark chocolate 72%	chocolate	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75123_5x_10ul_RG9_01_19563.mzXML	11442.G75123	chocolate, taza (84%)	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79223_5x_RE9_01_19528.mzXML	11442.G79223	chocolate	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79224_5x_10ul_RH9_01_19577.mzXML	11442.G79224	chocolate	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79681_5x_BD11_01_19633.mzXML	11442.G79681	chocolate (72%)	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79686_5x_BA10_01_19616.mzXML	11442.G79686	chocolate (45%)	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79688_1x_BF9_01_19545.mzXML	11442.G79688	chocolate, 72%	chocolate bar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79682_5x_rerun_BB11_01_19636.mzXML	11442.G79682	chocolate (100%)	chocolate bar, baking	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75263_1x_BD6_01_20746.mzXML	11442.G75263	Newtons Folly cider	cider	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74043_1x_RH3_01_18595.mzXML	11442.G74043	Newton's Folly Cider - authentic	cider	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74046_1x_RA3_01_18501.mzXML	11442.G74046	Newton's Folly Cider - Granny Smith	cider	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86760_10x_RH5_01_23233.mzXML	11442.G86760	cocoa powder	cocoa powder	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74089_1x_rerun_BB7_01_21459.mzXML	11442.G74089	AA Kenyan coffee, pour-over	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74090_1x_rerun_BA7_01_21395.mzXML	11442.G74090	Copper Moon Kenyan coffee, pour-over	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74091_1x_BG7_01_20773.mzXML	11442.G74091	Brazilian coffee, pour-over	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73505_1x_10ul_RB4_01_18621.mzXML	11442.G73505	seattle's best coffee	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75862_1x_RH6_01_26472.mzXML	11442.G75862	Coffee, iced, unsweetened, Starbucks	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78954_p4_e4_GA1_01_21651.mzXML	11442.G78954	ground illy coffee	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78955_5x_RB4_01_19475.mzXML	11442.G78955	illy coffee bean	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79202_1x_RF9_01_18876.mzXML	11442.G79202	AA Kenyan coffee beans raw	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79203_1x_RE9_01_18862.mzXML	11442.G79203	Copper Moon Kenyan coffee beans raw	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79204_1x_RB9_01_18806.mzXML	11442.G79204	Brazilian coffee beans raw	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86818_10x_RF2_01_23197.mzXML	11442.G86818	Organic Bolivian Blend coffee	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86821_10x_RF3_01_23198.mzXML	11442.G86821	Lavazza Coffee (Qualita Oro)	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86938_1x_RG10_01_26463.mzXML	11442.G86938	ethiopia Guju light coffee; from CMI workshop; sampled warm/hot on 2018-01-17 15:30	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90211_1x_rerun_RD12_01_26494.mzXML	11442.G90211	Triton Blend Medium; Club med; Fair trade certified; organic	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90212_1x_rerun_RC12_01_26509.mzXML	11442.G90212	Iced Coffee; Club Med; regular	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90213_1x_BB12_01_26391.mzXML	11442.G90213	Decaf Cafee del corazon; Club Med; Fair trade certified; organic	coffee	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95988_20x_RA2_01_32010.mzXML	G95988	Lavazzaa Roasted Ground Coffee - Oro	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95989_20x_RA6_01_32014.mzXML	G95989	Lavazzaa Roasted Ground Coffee - Oro	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95990_20x_RA9_01_32017.mzXML	G95990	Lavazzaa Caffe Espresso	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95991_20x_BG9_01_31988.mzXML	G95991	Lavazzaa Caffe Espresso	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95992_20x_BD11_01_31950.mzXML	G95992	Organic French Roast	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95993_20x_BG3_01_31982.mzXML	G95993	Organic French Roast	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95998_20x_BC10_01_31935.mzXML	G95998	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95999_20x_BD8_01_31947.mzXML	G95999	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96000_20x_BD4_01_31943.mzXML	G96000	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96001_20x_BB11_01_31922.mzXML	G96001	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96002_20x_BC7_01_31932.mzXML	G96002	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96003_20x_BF12_01_31978.mzXML	G96003	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96004_20x_BG4_01_31983.mzXML	G96004	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96005_20x_BC9_01_31934.mzXML	G96005	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96006_20x_BD6_01_31945.mzXML	G96006	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96007_20x_BC4_01_31926.mzXML	G96007	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96008_20x_BD9_01_31948.mzXML	G96008	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96009_20x_BH8_01_32002.mzXML	G96009	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96010_20x_BH6_01_32000.mzXML	G96010	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96011_20x_BD2_01_31941.mzXML	G96011	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96012_20x_BG10_01_31989.mzXML	G96012	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96013_20x_BH3_01_31997.mzXML	G96013	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96014_20x_BH11_01_32005.mzXML	G96014	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96015_20x_BE9_01_31962.mzXML	G96015	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96016_20x_BF7_01_31973.mzXML	G96016	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96017_20x_BF5_01_31971.mzXML	G96017	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96018_20x_BC5_01_31927.mzXML	G96018	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96019_20x_BH12_01_32006.mzXML	G96019	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96020_20x_BC12_01_31937.mzXML	G96020	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96021_20x_BF6_01_31972.mzXML	G96021	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96022_20x_BF3_01_31969.mzXML	G96022	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96023_20x_BH10_01_32004.mzXML	G96023	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96048_RE7_01_31829.mzXML	G96048	Lavazzaa Roasted Ground Coffee - Oro	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96049_1x_RH5_01_31888.mzXML	G96049	Lavazzaa Roasted Ground Coffee - Oro	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96050_20x_RA7_01_32015.mzXML	G96050	Pero_Negro_Nicaraguar	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96051_20x_BE4_01_31957.mzXML	G96051	Pero_Negro_Nicaraguar	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96052_20x_BE6_01_31959.mzXML	G96052	Little_Italy_Blend	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96053_20x_BF2_01_31968.mzXML	G96053	Little_Italy_Blend	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96054_20x_BE10_01_31963.mzXML	G96054	Cafe_Du_Mont	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96055_20x_RA8_01_32016.mzXML	G96055	Cafe_Du_Mont	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96056_20x_RA3_01_32011.mzXML	G96056	La_Laguna	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96057_20x_RA4_01_32012.mzXML	G96057	La_Laguna	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96275_20x_BH7_01_32001.mzXML	G96275	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96276_20x_BF8_01_31974.mzXML	G96276	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96279_20x_BG5_01_31984.mzXML	G96279	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96281_20x_BG12_01_31991.mzXML	G96281	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96282_20x_BH2_01_31996.mzXML	G96282	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96283_20x_BC3_01_31925.mzXML	G96283	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96284_20x_BD12_01_31951.mzXML	G96284	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96285_20x_BC8_01_31933.mzXML	G96285	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96286_20x_BE3_01_31956.mzXML	G96286	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96287_20x_BD5_01_31944.mzXML	G96287	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96288_20x_BE2_01_31955.mzXML	G96288	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96289_20x_BH9_01_32003.mzXML	G96289	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96290_20x_BD3_01_31942.mzXML	G96290	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96295_20x_BD7_01_31946.mzXML	G96295	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96296_20x_BF4_01_31970.mzXML	G96296	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96297_20x_BG11_01_31990.mzXML	G96297	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96298_20x_BE11_01_31964.mzXML	G96298	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96299_20x_BH5_01_31999.mzXML	G96299	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96300_20x_BF11_01_31977.mzXML	G96300	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96301_20x_BE8_01_31961.mzXML	G96301	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96302_20x_BG7_01_31986.mzXML	G96302	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96303_20x_BE5_01_31958.mzXML	G96303	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96304_20x_BF10_01_31976.mzXML	G96304	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96305_20x_BG2_01_31981.mzXML	G96305	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96306_20x_BF9_01_31975.mzXML	G96306	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96307_20x_BE7_01_31960.mzXML	G96307	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96308_20x_BC2_01_31924.mzXML	G96308	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96423_RE8_01_31830.mzXML	G96423	Organic French Roast	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96424_RC4_01_31788.mzXML	G96424	Organic French Roast	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96425_RF12_01_31861.mzXML	G96425	Lavazzaa Caffe Espresso	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96426_RF7_01_31852.mzXML	G96426	Lavazzaa Caffe Espresso	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96429_RC11_01_31799.mzXML	G96429	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96430_RF8_01_31853.mzXML	G96430	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96431_RG7_01_31872.mzXML	G96431	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96432_RC5_01_31791.mzXML	G96432	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96433_RE6_01_31828.mzXML	G96433	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96434_RD12_01_31818.mzXML	G96434	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96435_RF9_01_31856.mzXML	G96435	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96436_RG4_01_31867.mzXML	G96436	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96437_RE11_01_31835.mzXML	G96437	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96438_RG1_01_31864.mzXML	G96438	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96439_RD5_01_31809.mzXML	G96439	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96440_1x_RH4_01_31885.mzXML	G96440	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96441_RD11_01_31817.mzXML	G96441	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96442_RC6_01_31792.mzXML	G96442	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96443_1x_RH11_01_31896.mzXML	G96443	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96444_RF5_01_31850.mzXML	G96444	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96445_1x_RH10_01_31895.mzXML	G96445	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96446_RE10_01_31834.mzXML	G96446	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96447_RD4_01_31806.mzXML	G96447	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96448_RF1_01_31840.mzXML	G96448	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96449_RC9_01_31797.mzXML	G96449	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96450_RG2_01_31865.mzXML	G96450	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96451_1x_RH7_01_31890.mzXML	G96451	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96452_1x_RH6_01_31889.mzXML	G96452	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96453_1x_RG9_01_31876.mzXML	G96453	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96454_RG8_01_31873.mzXML	G96454	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96467_RC7_01_31793.mzXML	G96467	Decaf_Brazil	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96468_1x_RG11_01_31878.mzXML	G96468	Decaf_Brazil	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96469_RD10_01_31816.mzXML	G96469	Cafe_Du_Mont	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96470_RE4_01_31824.mzXML	G96470	Cafe_Du_Mont	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96471_RE5_01_31827.mzXML	G96471	Little_Italy_Blend	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96472_1x_RG12_01_31879.mzXML	G96472	Little_Italy_Blend	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96473_RF10_01_31857.mzXML	G96473	La_Laguna	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96474_RB9_01_31779.mzXML	G96474	La_Laguna	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96475_RC2_01_31786.mzXML	G96475	Pero_Negro_Nicaraguar	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96476_RG3_01_31866.mzXML	G96476	Pero_Negro_Nicaraguar	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96635_RF4_01_31845.mzXML	G96635	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96636_RF3_01_31842.mzXML	G96636	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96640_RG6_01_31871.mzXML	G96640	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96641_1x_RH9_01_31894.mzXML	G96641	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96642_RE3_01_31823.mzXML	G96642	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96643_1x_RH1_01_31882.mzXML	G96643	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96644_1x_RH12_01_31897.mzXML	G96644	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96645_RD9_01_31815.mzXML	G96645	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96646_RD3_01_31805.mzXML	G96646	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96647_RB10_01_31780.mzXML	G96647	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96648_RB11_01_31781.mzXML	G96648	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96696_1x_RG10_01_31877.mzXML	G96696	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96697_RD7_01_31811.mzXML	G96697	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96698_1x_RH3_01_31884.mzXML	G96698	whole beans	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96703_RC8_01_31794.mzXML	G96703	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96704_1x_RH2_01_31883.mzXML	G96704	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96705_RC3_01_31787.mzXML	G96705	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96706_RC12_01_31800.mzXML	G96706	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96708_RF2_01_31841.mzXML	G96708	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96709_RF6_01_31851.mzXML	G96709	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96710_RG5_01_31870.mzXML	G96710	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96711_RE1_01_31821.mzXML	G96711	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96712_1x_RH8_01_31891.mzXML	G96712	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96714_RE9_01_31833.mzXML	G96714	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96715_RC10_01_31798.mzXML	G96715	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96716_RD2_01_31804.mzXML	G96716	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96717_RF11_01_31860.mzXML	G96717	Ground coffee	coffee	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74036_1x_RD4_01_18541.mzXML	11442.G74036	yogurt drink	cold beverage	TRUE	yes	none	0	0	0	0	0	1	0	0	0	1	0	0	0
+G75765_1x_RH7_01_18599.mzXML	11442.G75765	warsteiner beer	cold beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74056_1x_10ul_RF6_01_19863.mzXML	11442.G74056	heavy whipping cream	cream	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86849_1x_RA5_01_23478.mzXML	11442.G86849	heavy whipping cream	cream	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75748_1x_10ul_RD2_01_19813.mzXML	11442.G75748	Straus heavy whipping cream	cream	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72484_1x_8ul_BE12_01_20201.mzXML	11442.G72484	Philadelphia cream cheese	cream cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75122_2x_RA8_01_19103.mzXML	11442.G75122	cream cheese	cream cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86839_1x_BH6_01_23232.mzXML	11442.G86839	Philadelphia cream cheese spread	cream cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86840_1x_BH9_01_23237.mzXML	11442.G86840	Philadelphia cream cheese (1/3 less fat) spread	cream cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86927_1x_BE5_01_23185.mzXML	11442.G86927	plain double whipped shmear; einstein Bros Bagels; from Knight lab group meeting	cream cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72780_10x_BF2_01_17850.mzXML	11442.G72780	croissant, chocolate (novisible chocolate)	croissant	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86895_1x_BA12_01_23127.mzXML	11442.G86895	Mini Butter Croissants	croissant	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73529_1x_BC8_01_20740.mzXML	11442.G73529	Belgian Abbey Yeast	culture	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+73530_1x_BE8_01_20756.mzXML	11442.G73530	European Ale Yeast	culture	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75584_BD6_01_18686.mzXML	11442.G75584	ground pork, organic	raw meat	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G78939_BD8_01_18689.mzXML	11442.G78939	boneless pork shoulder roast	raw meat	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87339_RF7_01_26181.mzXML	11442.G87339	Prosciutto Parma 24 months	cured meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G87340_RF8_01_26182.mzXML	11442.G87340	Prosciutto San Daniele Reserva	cured meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79699_5x_BH11_01_19704.mzXML	11442.G79699	Stonyfield organic O'soy; soy yogurt	dairy substitute	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G78958_p19_g5_GD6_01_21672.mzXML	11442.G78958	Party platter pack Pepper Salame	deli meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78959_p19_g6_rerun_GE6_01_21713.mzXML	11442.G78959	Party platter pack Hot Capocolla	deli meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G78960_p19_g7_GA7_01_21676.mzXML	11442.G78960	Party platter pack Hot Calabrese	deli meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74060_1x_BH7_01_20781.mzXML	11442.G74060	Maeil dairy drink	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72485_RD10_01_18365.mzXML	11442.G72485	jasmine rice	grain	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72803_RD12_01_18368.mzXML	11442.G72803	brown rice	grain	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+74061_1x_BF7_01_20764.mzXML	11442.G74061	Unoaked sake	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74062_1x_BE7_01_20755.mzXML	11442.G74062	Oaked sake	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72824_1x_RE1_01_18552.mzXML	11442.G72824	home brewed beer 2, likely orange creamsicale	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72827_1x_RF1_01_18566.mzXML	11442.G72827	home brewed beer	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72828_1x_RG1_01_18579.mzXML	11442.G72828	Frangelico- 20% ABV	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72829_1x_RH1_01_18593.mzXML	11442.G72829	Spiced Jaegermeister 35.5% ABV	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72830_1x_RD2_01_18539.mzXML	11442.G72830	Jameson Caskmates Whiskey	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72831_1x_10ul_RC2_01_18607.mzXML	11442.G72831	ChocoMuseo Lima Cacao Liquer	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72832_1x_RB2_01_18511.mzXML	11442.G72832	Ballast Point Russian Imperial Stout-9.8% ABV	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72833_1x_RA2_01_18500.mzXML	11442.G72833	Ballast Point Fathom beer-7% ABV	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G87515_1x_BB8_01_26387.mzXML	11442.G87515	octoberfest home brewed beer AS sample	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87516_1x_RH8_01_26476.mzXML	11442.G87516	pumpkin beer home brew AS sample	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87518_1x_RF8_01_26447.mzXML	11442.G87518	Swafford mystery beer 1	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87519_1x_RG8_01_26461.mzXML	11442.G87519	Swafford mystery beer 2	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87520_1x_rerun_RD8_01_26490.mzXML	11442.G87520	Unspoiled pumpkin ale 9-24 (post ferment? on jar label)	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87521_1x_rerun_RC8_01_26505.mzXML	11442.G87521	spoiled pumpkin ale 2017-09-24; post ferment	fermented beverage	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72820_1x_RA1_01_18497.mzXML	11442.G72820	Lorimar 2014 80% Sangiovese, 15% Merlot, 5 % Cabernet Sauvignon-15.3% ABV	fermented beverage	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72821_1x_10ul_RB1_01_18620.mzXML	11442.G72821	Lorimar 2012 100% Petit Sirah-14.4%	fermented beverage	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72822_1x_10ul_RC1_01_18604.mzXML	11442.G72822	Lorimar 2015 Vineyard Blend (42% Grenache Blanc, 33% Viognier,25% Roussanne)-13.7% ABV	fermented beverage	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72823_1x_RD1_01_18538.mzXML	11442.G72823	Lorimar 2013 Grenache, Syrah, Mourvedre- 13.5% AV	fermented beverage	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72746_10x_3ul_BB3_01_17887.mzXML	11442.G72746	organic raw beet (from Trader Joe's)	beet	TRUE	no	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+74057_1x_BE2_01_20750.mzXML	11442.G74057	beet kvass	fermented juice	TRUE	yes	magenta	0	0	0	0	0	0	0	0	0	0	0	0	0
+73989_5x_RH6_01_17500.mzXML	11442.G73989	blueberry	berry	TRUE	no	purple	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72707_10x_3ul_rerun_BA4_01_17883.mzXML	11442.G72707	blueberry, organic, Costco (1/4 of one)	berry	TRUE	no	purple;pink	0	0	0	0	0	0	0	0	0	0	0	0	0
+73503_1x_BE5_01_20753.mzXML	11442.G73503	blueberry kefir	fermented liquid	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+73730_1x_BB9_01_17405.mzXML	11442.G73730	mango	stone fruit	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75591_1x_RD4_01_18829.mzXML	11442.G75591	mango	stone fruit	TRUE	no	orange/yellow color	0	0	0	0	0	0	0	0	0	1	0	0	0
+73504_1x_BD5_01_20745.mzXML	11442.G73504	mango kefir	fermented liquid	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72723_BA12_01_18647.mzXML	11442.G72723	sliced prosciutto	fermented meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+CW_113.S_F3.T1_BH9_01_13178.mzXML	CW113_S_F3_T1	Fuji	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_38.S_G1.T1_BC3_01_13112.mzXML	CW38_G1_T1	Granny Smith	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_39.S_G2.T1_BC4_01_13113.mzXML	CW39_G2_T1	Granny Smith	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_40.S_G3.T1_BC5_01_13114.mzXML	CW40_G3_T1	Granny Smith	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_73.S_R1.T1_BE3_01_13136.mzXML	CW73_S_R1_T1	Ribston Pippen	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_74.S_R2.T1_BE4_01_13137.mzXML	CW74_S_R2_T1	Ribston Pippen	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_75.S_R3.T1_BE5_01_13138.mzXML	CW75_S_R3_T1	Ribston Pippen	fermenting apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_114.S_F1.T2_BH10_01_13179.mzXML	CW114_S_F1_T2	Fuji	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_115.S_F2.T2_BH11_01_13180.mzXML	CW115_S_F2_T2	Fuji	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_116.S_F3.T2_BH12_01_13181.mzXML	CW116_S_F3_T2	Fuji	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_41.S_G1.T2_BC6_01_13115.mzXML	CW41_G1_T2	Granny Smith	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_42.S_G2.T2_BC7_01_13116.mzXML	CW42_G2_T2	Granny Smith	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_43.S_G3.T2_BC8_01_13117.mzXML	CW43_G3_T2	Granny Smith	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_76.S_R1.T2_BE6_01_13139.mzXML	CW76_S_R1_T2	Ribston Pippen	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_77.S_R2.T2_BE7_01_13140.mzXML	CW77_S_R2_T2	Ribston Pippen	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_78.S_R3.T2_BE8_01_13141.mzXML	CW78_S_R3_T2	Ribston Pippen	fermenting apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_117.S_F1.T3_RA2_01_13183.mzXML	CW117_S_F1_T3	Fuji	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_118.S_F2.T3_RA3_01_13184.mzXML	CW118_S_F2_T3	Fuji	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_119.S_F3.T3_RA4_01_13185.mzXML	CW119_S_F3_T3	Fuji	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_79.S_R1.T3_BE9_01_13142.mzXML	CW79_S_R1_T3	Ribston Pippen	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_80.S_R2.T3_BE10_01_13143.mzXML	CW80_S_R2_T3	Ribston Pippen	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_81.S_R3.T3_BE11_01_13144.mzXML	CW81_S_R3_T3	Ribston Pippen	fermenting apple juice	TRUE	yes	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_120.S_F1.T4_RA5_01_13186.mzXML	CW120_S_F1_T4	Fuji	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_121.S_F2.T4_RA6_01_13187.mzXML	CW121_S_F2_T4	Fuji	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_122.S_F3.T4_RA7_01_13188.mzXML	CW122_S_F3_T4	Fuji	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_82.S_R1.T4_BE12_01_13145.mzXML	CW82_S_R1_T4	Ribston Pippen	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_83.S_R2.T4_BF2_01_13147.mzXML	CW83_S_R2_T4	Ribston Pippen	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_84.S_R3.T4_BF3_01_13148.mzXML	CW84_S_R3_T4	Ribston Pippen	fermenting apple juice	TRUE	yes	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_123.S_F1.T5_RA8_01_13189.mzXML	CW123_S_F1_T5	Fuji	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_124.S_F2.T5_RA9_01_13190.mzXML	CW124_S_F2_T5	Fuji	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_125.S_F3.T5_RA10_01_13191.mzXML	CW125_S_F3_T5	Fuji	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_85.S_R1.T5_BF4_01_13149.mzXML	CW85_S_R1_T5	Ribston Pippen	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_85.S_R2.T8_BG3_01_13160.mzXML	CW86_S_R2_T5	Ribston Pippen	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_86.S_R2.T5_BF5_01_13150.mzXML	CW87_S_R3_T5	Ribston Pippen	fermenting apple juice	TRUE	yes	6	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_126.S_F1.T6_RA11_01_13192.mzXML	CW126_S_F1_T6	Fuji	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_127.S_F2.T6_RA12_01_13193.mzXML	CW127_S_F2_T6	Fuji	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_128.S_F3.T6_RB2_01_13201.mzXML	CW128_S_F3_T6	Fuji	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_87.S_R3.T5_BF6_01_13151.mzXML	CW88_S_R1_T6	Ribston Pippen	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_88.S_R1.T6_BF7_01_13152.mzXML	CW89_S_R2_T6	Ribston Pippen	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_89.S_R2.T6_BF8_01_13153.mzXML	CW90_S_R3_T6	Ribston Pippen	fermenting apple juice	TRUE	yes	8	0	0	0	0	0	1	0	0	0	0	0	0	0
+CW_129.S_F1.T7_RB3_01_13202.mzXML	CW129_S_F1_T7	Fuji	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_130.S_F2.T7_RB4_01_13203.mzXML	CW130_S_F2_T7	Fuji	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_131.S_F3.T7_RB5_01_13204.mzXML	CW131_S_F3_T7	Fuji	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_53.S_G1.T6_BC9_01_13118.mzXML	CW53_G1_T6	Granny Smith	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	1	0	0	0	1	0	0	0
+CW_54.S_G2.T6_BC10_01_13119.mzXML	CW54_G2_T6	Granny Smith	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_55.S_G3.T6_BC11_01_13120.mzXML	CW55_G3_T6	Granny Smith	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_90.S_R3.T6_BF9_01_13154.mzXML	CW91_S_R1_T7	Ribston Pippen	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_91.S_R1.T7_BF10_01_13155.mzXML	CW92_S_R2_T7	Ribston Pippen	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_92.S_R2.T7_BF11_01_13156.mzXML	CW93_S_R3_T7	Ribston Pippen	fermenting apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_132.S_F1.T8_RB6_01_13205.mzXML	CW132_S_F1_T8	Fuji	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_133.S_F2.T8_RB7_01_13206.mzXML	CW133_S_F2_T8	Fuji	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_134.S_F3.T8_RB8_01_13207.mzXML	CW134_S_F3_T8	Fuji	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_93.S_R3.T7_BF12_01_13157.mzXML	CW94_S_R1_T8	Ribston Pippen	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_94.S_R1.T8_BG2_01_13159.mzXML	CW95_R2_T8	Ribston Pippen	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_96.S_R3.T8_BG4_01_13161.mzXML	CW96_S_R3_T8	Ribston Pippen	fermenting apple juice	TRUE	yes	12	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_56.S_G1.T7_BC12_01_13121.mzXML	CW56_G1_T7	Granny Smith	fermenting apple juice	TRUE	yes	13	0	0	0	0	0	1	1	0	0	0	0	0	0
+CW_57.S_G2.T7_BD2_01_13123.mzXML	CW57_G2_T7	Granny Smith	fermenting apple juice	TRUE	yes	13	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_58.S_G3.T7_BD3_01_13124.mzXML	CW58_G3_T7	Granny Smith	fermenting apple juice	TRUE	yes	13	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_135.S_F1.T9_RB9_01_13208.mzXML	CW135_S_F1_T9	Fuji	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_136.S_F2.T9_RB10_01_13209.mzXML	CW136_S_F2_T9	Fuji	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_137.S_F3.T9_RB11_01_13210.mzXML	CW137_S_F3_T9	Fuji	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_97.S_R1.T9_BG5_01_13162.mzXML	CW97_S_R1_T9	Ribston Pippen	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_98.S_R2.T9_BG6_01_13163.mzXML	CW98_S_R2_T9	Ribston Pippen	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_99.S_R3.T9_BG7_01_13164.mzXML	CW99_S_R3_T9	Ribston Pippen	fermenting apple juice	TRUE	yes	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_59.S_G1.T8_BD4_01_13125.mzXML	CW59_G1_T8	Granny Smith	fermenting apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_60.S_G2.T8_BD5_01_13126.mzXML	CW60_G2_T8	Granny Smith	fermenting apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_61.S_G3.T8_BD6_01_13127.mzXML	CW61_G3_T8	Granny Smith	fermenting apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_100.S_R1.T10_BG8_01_13165.mzXML	CW100_S_R1_T10	Ribston Pippen	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_101.S_R2.T10_BG9_01_13166.mzXML	CW101_S_R2_T10	Ribston Pippen	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_102.S_R3.T10_BG10_01_13167.mzXML	CW102_S_R3_T10	Ribston Pippen	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_138.S_F1.T10_RB12_01_13211.mzXML	CW138_S_F1_T10	Fuji	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_139.S_F2.T10_RC2_01_13213.mzXML	CW139_S_F2_T10	Fuji	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_140.S_F3.T10_RC3_01_13214.mzXML	CW140_S_F3_T10	Fuji	fermenting apple juice	TRUE	yes	18	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_103.S_R1.T11_BG11_01_13168.mzXML	CW103_S_R1_T11	Ribston Pippen	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_104.S_R2.T11_BG12_01_13169.mzXML	CW104_S_R2_T11	Ribston Pippen	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_105.S_R3.T11_BH2_01_13171.mzXML	CW105_S_R3_T11	Ribston Pippen	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_141.S_F1.T11_RC4_01_13215.mzXML	CW141_S_F1_T11	Fuji	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_142.S_F2.T11_RC5_01_13216.mzXML	CW142_S_F2_T11	Fuji	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_143.S_F3.T11_RC6_01_13217.mzXML	CW143_S_F3_T11	Fuji	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_62.S_G1.T9_BD7_01_13128.mzXML	CW62_G1_T9	Granny Smith	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_63.S_G2.T9_BD8_01_13129.mzXML	CW63_G2_T9	Granny Smith	fermenting apple juice	TRUE	yes	21	0	0	1	0	0	0	0	0	0	1	0	0	0
+CW_64.S_G3.T9_BD9_01_13130.mzXML	CW64_G3_T9	Granny Smith	fermenting apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_68.S_G1.T10_BD10_01_13131.mzXML	CW68_G1_T10	Granny Smith	fermenting apple juice	TRUE	yes	30	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_106.S_R1.T12_BH3_01_13172.mzXML	CW106_S_R1_T12	Ribston Pippen	fermenting apple juice	TRUE	yes	33	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_144.S_F1.T12_RC7_01_13218.mzXML	CW144_S_F1_T12	Fuji	fermenting apple juice	TRUE	yes	33	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_107.S_R1.T13_BH4_01_13173.mzXML	CW107_S_R1_T13	Ribston Pippen	fermenting apple juice	TRUE	yes	60	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_145.S_F1.T13_RC8_01_13219.mzXML	CW145_S_F1_T13	Fuji	fermenting apple juice	TRUE	yes	60	0	0	0	0	0	1	0	0	0	0	0	0	0
+CW_69.S_G1.T11_BD11_01_13132.mzXML	CW69_G1_T11	Granny Smith	fermenting apple juice	TRUE	yes	60	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_108.S_R1.T14_BH5_01_13174.mzXML	CW108_S_R1_T14	Ribston Pippen	fermenting apple juice	TRUE	yes	90	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_146.S_F1.T14_RC9_01_13220.mzXML	CW146_S_F1_T14	Fuji	fermenting apple juice	TRUE	yes	90	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_70.S_G1.T12_BD12_01_13133.mzXML	CW70_G1_T12	Granny Smith	fermenting apple juice	TRUE	yes	90	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_3.S_P1.T1_BA3_01_13088.mzXML	CW3_P1_T1	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_4.S_P2.T1_BA4_01_13089.mzXML	CW4_P2_T1	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_5.S_P3.T1_BA5_01_13090.mzXML	CW5_P3_T1	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_6.S_P1.T2_BA6_01_13091.mzXML	CW6_P1_T2	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_7.S_P2.T2_BA7_01_13092.mzXML	CW7_P2_T2	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_8.S_P3.T2_BA8_01_13093.mzXML	CW8_P3_T2	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	2	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_18.S_P1.T6_BA9_01_13094.mzXML	CW18_P1_T6	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_19.S_P2.T6_BA10_01_13095.mzXML	CW19_P2_T6	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_20.S_P3.T6_BA11_01_13096.mzXML	CW20_P3_T6	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	10	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_21.S_P1.T7_BA12_01_13097.mzXML	CW21_P1_T7	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	13	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_22.S_P2.T7_BB2_01_13099.mzXML	CW22_P2_T7	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	13	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_23.S_P3.T7_BB3_01_13100.mzXML	CW23_P3_T7	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	13	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_24.S_P1.T8_BB4_01_13101.mzXML	CW24_P1_T8	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_25.S_P2.T8_BB5_01_13102.mzXML	CW25_P2_T8	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_26.S_P3.T8_BB6_01_13103.mzXML	CW26_P3_T8	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	16	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_27.S_P1.T9_BB7_01_13104.mzXML	CW27_P1_T9	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_28.S_P2.T9_BB8_01_13105.mzXML	CW28_P2_T9	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_29.S_P3.T9_BB9_01_13106.mzXML	CW29_P3_T9	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	21	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_33.S_P1.T10_BB10_01_13107.mzXML	CW33_P1_T10	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	30	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_34.S_P1.T11_BB11_01_13108.mzXML	CW34_P1_T11	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	60	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_35.S_P1.T12_BB12_01_13109.mzXML	CW35_P1_T12	Newtown Pippen	fermenting apple juiceing apple juice	TRUE	yes	90	0	0	0	0	0	0	0	0	0	0	0	0	0
+RB8_RB8_01_49073.mzXML	F18_anchovies	anchovies	fish	not entered	no	not applicable	0	0	0	0	0	0	0	0	1	0	1	0	0
+75236_1x_BD4_01_20744.mzXML	11442.G75236	10 Anchovy fish sauce	fish sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G86859_1x_3ul_RB5_01_23507.mzXML	11442.G86859	fish sauce	fish sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G74081_1x_10ul_RA7_01_18505.mzXML	11442.G74081	gin	gin	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86963_1x_RC11_01_23519.mzXML	11442.G86963	Hendrick's Gin	gin	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79179_1x_BH7_01_20271.mzXML	11442.G79179	tabasco	hot sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79180_1x_BG7_01_20232.mzXML	11442.G79180	tapatio salsa picante	hot sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87602_1x_RE11_01_26303.mzXML	11442.G87602	clover honey; grade A; product of USA; trader joe's	honey	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72719_5x_10ul_RA5_01_20210.mzXML	11442.G72719	corsican honey	honey	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86809_1x_RA2_01_23249.mzXML	11442.G86809	honey	honey	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G78965_1x_BH5_01_20242.mzXML	11442.G78965	Raw Honey	honey	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75719_1x_RE6_01_18557.mzXML	11442.G75719	jun	jun	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75722_1x_10ul_RC6_01_18529.mzXML	11442.G75722	jun	jun	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75720_1x_RH5_01_18597.mzXML	11442.G75720	water kefir	kefir	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75726_1x_RD6_01_18543.mzXML	11442.G75726	kefir, home fermented	kefir	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87310_RB11_01_26092.mzXML	11442.G87310	ginger root	spice	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87333_RA11_01_26077.mzXML	11442.G87333	ginger root	spice	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87396_1x_BF8_01_26131.mzXML	11442.G87396	ginger kefir	kefir	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73511_1x_BG5_01_20771.mzXML	11442.G73511	hibiscus apricot probiotic kefir water tea	kefir water	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75576_1x_RF8_01_18875.mzXML	11442.G75576	cabbage	cabbage	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79508_1x_rerun_10ul_RC9_01_20298.mzXML	11442.G79508	green cabbage	cabbage	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+72538_1x_BB6_01_17402.mzXML	11442.G72538	napa cabbage	cabbage	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79728_1x_10ul_RD3_01_20303.mzXML	11442.G79728	purple cabbage	cabbage	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87308_RC2_01_26097.mzXML	11442.G87308	red cabbage	cabbage	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73704_5x_RB5_01_19476.mzXML	11442.G73704	napa cabbage kimchi	kimchi	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+74021_1x_BA12_01_17395.mzXML	11442.G74021	cucumber	cucumber	TRUE	no	green	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73444_1x_BH5_01_17349.mzXML	11442.G73444	cucumber	cucumber	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79000_1x_RG2_01_18882.mzXML	11442.G79000	persian cucumber	cucumber	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73705_5x_10ul_rerun_RH4_01_19601.mzXML	11442.G73705	persian cucumber kimchi	kimchi	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79706_5x_RB12_01_19484.mzXML	11442.G79706	kimchi	kimchi	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+73492_1x_BF3_01_21384.mzXML	11442.G73492	kombucha, homemade 2ndary fruit ferment, red fruit	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73493_1x_BD3_01_20743.mzXML	11442.G73493	kombucha, homemade	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73494_1x_rerun_BD2_01_21380.mzXML	11442.G73494	kombucha, homemade	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73495_1x_BC3_01_20735.mzXML	11442.G73495	kombucha, homemade 2ndary fruit ferment, mango	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73514_1x_12ul_rerun_BB5_01_21456.mzXML	11442.G73514	lemon ginger cayenne kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73515_1x_rerun_BA5_01_21392.mzXML	11442.G73515	love kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73516_1x_BC5_01_20737.mzXML	11442.G73516	clear mind kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74092_1x_12ul_rerun_BB2_01_21453.mzXML	11442.G74092	Passion fruit kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+74093_1x_BC2_01_20734.mzXML	11442.G74093	apple kombucha (?)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+74125_1x_12ul_rerun_BA2_01_21387.mzXML	11442.G74125	fig kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+75220_1x_BF8_01_20765.mzXML	11442.G75220	Humm brand kombucha pomegranate lemonade flavor	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+75231_1x_14ul_rerun_BA8_01_21449.mzXML	11442.G75231	nm peach kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75739_1x_rerun_BB8_01_21460.mzXML	11442.G75739	cucumber mint kombucha (organic and homegrown mint from Julia's garden)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75846_1x_BE3_01_20751.mzXML	11442.G75846	BDK citrus hops, kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73485_1x_RD9_01_18546.mzXML	11442.G73485	kombucha, homemade	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73488_1x_10ul_RA11_01_19779.mzXML	11442.G73488	fuze iced raspberry tea	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73522_1x_RF6_01_18571.mzXML	11442.G73522	white peach kombucha - origonic tonic	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73523_1x_RD7_01_18544.mzXML	11442.G73523	ginger kombucha - origonic tonic	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73524_1x_RG7_01_18584.mzXML	11442.G73524	hibiscus blood orange kombucha - origonic tonic	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73525_1x_10ul_RC11_01_18537.mzXML	11442.G73525	Brew Dr. kombucha Happiness flavor	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74033_1x_RH4_01_18596.mzXML	11442.G74033	humm kombucha coconut lime	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74034_1x_10ul_RA5_01_18503.mzXML	11442.G74034	GT Kombucha Original flavor	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74094_1x_10ul_RC11_01_19688.mzXML	11442.G74094	clear mind kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75723_1x_RE5_01_18556.mzXML	11442.G75723	kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75743_1x_RE3_01_18554.mzXML	11442.G75743	cucumber mint kombucha (Julia homemade)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75760_1x_RF8_01_18573.mzXML	11442.G75760	blueberry kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75769_1x_10_RA9_01_18507.mzXML	11442.G75769	blueberry kombucha (homemade)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75770_1x_RE10_01_18561.mzXML	11442.G75770	mature kombucha (3rd Round)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75771_1x_RD10_01_18547.mzXML	11442.G75771	mature kombucha (from scoby #2 round 1)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86844_1x_RF11_01_23368.mzXML	11442.G86844	Health-Ade Kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86943_1x_RF10_01_26449.mzXML	11442.G86943	love flavor; brew dr. kombucha; townhends tea co.	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86950_1x_RF9_01_26448.mzXML	11442.G86950	vanilla oak BDK brand kombucha (sampled 1/23 frozen 1/25 8:30AM)	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86969_1x_RG9_01_26462.mzXML	11442.G86969	HM blueberry kombucha; just opened- long 2ndary ferment	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87517_1x_rerun_RE8_01_26483.mzXML	11442.G87517	BDK Love kombucha	kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73484_1x_RF7_01_18572.mzXML	11442.G73484	Kombucha; Health Ade brand	kombucha	TRUE	yes	pink/red color	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75721_1x_10ul_RB6_01_18622.mzXML	11442.G75721	kvaass	kvass	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75725_1x_RF5_01_18570.mzXML	11442.G75725	kvaass	kvass	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73712_5x_RF3_01_19536.mzXML	11442.G73712	uncured dry salami	meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79239_BC12_01_18678.mzXML	11442.G79239	hard salami	meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79240_BF12_01_18737.mzXML	11442.G79240	hard salami	meat	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+RB11_tk2_RB11_01_49125.mzXML	F21_pork.salami	pork.salami	meat	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	1	1	0	0
+G86845_1x_RA2_01_23475.mzXML	11442.G86845	soymilk, plain	soy milk	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G75588_5x_10ul_BA9_01_19874.mzXML	11442.G75588	soybeans, organic	soybean	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G73634_5x_RB7_01_19479.mzXML	11442.G73634	seitan	meat substitute	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74049_1x_RG4_01_18582.mzXML	11442.G74049	Educated Guess Merlot 2014	merlot	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95952_BA6_01_31659.mzXML	G95952	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95953_BB6_01_31682.mzXML	G95953	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95954_RF12_01_31571.mzXML	G95954	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95955_RE10_01_31522.mzXML	G95955	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95956_repeat_RB5_01_31534.mzXML	G95956	milk with yogurt culture	milk	FALSE	yes	none	0	0	1	0	0	0	0	0	0	0	0	0	0
+G95957_repeat_RD7_01_31618.mzXML	G95957	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95958_RD2_01_31497.mzXML	G95958	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95959_RH9_01_31605.mzXML	G95959	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95960_repeat_RB10_01_31547.mzXML	G95960	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95961_BB10_01_31688.mzXML	G95961	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95962_BB3_01_31674.mzXML	G95962	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95963_repeat_BA7_01_31708.mzXML	G95963	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95964_RA4_01_31456.mzXML	G95964	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95965_RH3_01_31592.mzXML	G95965	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95966_repeat_RH11_01_31645.mzXML	G95966	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G95967_BA12_01_31669.mzXML	G95967	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95968_BA2_01_31653.mzXML	G95968	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95969_RC10_01_31493.mzXML	G95969	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95970_RF9_01_31564.mzXML	G95970	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95971_repeat_RG8_01_31631.mzXML	G95971	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95972_RC8_01_31491.mzXML	G95972	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95973_repeat_RG9_01_31632.mzXML	G95973	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95974_repeat_RC3_01_31613.mzXML	G95974	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95975_repeat2_RB6_01_31539.mzXML	G95975	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95976_BB9_01_31687.mzXML	G95976	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95977_BB2_01_31673.mzXML	G95977	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95978_BB8_01_31686.mzXML	G95978	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95979_repeat_RB7_01_31541.mzXML	G95979	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95980_RF6_01_31559.mzXML	G95980	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95981_RG7_01_31582.mzXML	G95981	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95982_repeat_RB8_01_31543.mzXML	G95982	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95983_RA9_01_31462.mzXML	G95983	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95984_repeat_RG10_01_31635.mzXML	G95984	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95985_repeat_RH6_01_31641.mzXML	G95985	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95986_RC2_01_31484.mzXML	G95986	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95987_repeat_RB2_01_31528.mzXML	G95987	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96095_RA11_01_31464.mzXML	G96095	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96096_RC12_01_31495.mzXML	G96096	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96097_RF7_01_31562.mzXML	G96097	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96098_RF10_01_31569.mzXML	G96098	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96099_RE8_01_31518.mzXML	G96099	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96100_repeat_RG11_01_31636.mzXML	G96100	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G96101_BB5_01_31681.mzXML	G96101	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96102_BA11_01_31668.mzXML	G96102	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96103_BA8_01_31663.mzXML	G96103	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96104_RD12_01_31508.mzXML	G96104	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96105_RH4_01_31594.mzXML	G96105	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96106_repeat_RH5_01_31640.mzXML	G96106	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96107_repeat_RD4_01_31616.mzXML	G96107	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96108_RC5_01_31487.mzXML	G96108	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96109_repeat_RB11_01_31549.mzXML	G96109	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96110_RD10_01_31506.mzXML	G96110	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96111_RC7_01_31490.mzXML	G96111	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96112_repeat_RB9_01_31545.mzXML	G96112	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96113_repeat_RD9_01_31622.mzXML	G96113	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96114_RF5_01_31558.mzXML	G96114	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96115_RA12_01_31465.mzXML	G96115	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96116_BA9_01_31664.mzXML	G96116	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G96117_BA3_01_31654.mzXML	G96117	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G96118_BB4_01_31675.mzXML	G96118	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G96119_BA5_01_31658.mzXML	G96119	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96120_BA10_01_31665.mzXML	G96120	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96121_BA4_01_31655.mzXML	G96121	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96122_RA2_01_31453.mzXML	G96122	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96123_RE6_01_31514.mzXML	G96123	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96124_RE3_01_31511.mzXML	G96124	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96125_RF8_01_31563.mzXML	G96125	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96126_RD11_01_31507.mzXML	G96126	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96127_RF4_01_31556.mzXML	G96127	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96128_repeat2_BB7_01_31703.mzXML	G96128	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96129_RF11_01_31570.mzXML	G96129	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96130_RE9_01_31521.mzXML	G96130	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96167_RA5_01_31457.mzXML	G96167	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96168_RC9_01_31492.mzXML	G96168	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96169_RH2_01_31591.mzXML	G96169	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96170_RE4_01_31512.mzXML	G96170	yogurt	milk	FALSE	yes	none	0	0	0	0	0	1	0	0	0	1	0	0	0
+G96171_repeat_RC4_01_31614.mzXML	G96171	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G96172_repeat_RB12_01_31551.mzXML	G96172	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G96173_repeat_RG2_01_31630.mzXML	G96173	yogurt	milk	FALSE	yes	none	1	0	0	0	0	0	0	0	0	1	0	0	0
+G96174_RE12_01_31527.mzXML	G96174	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96175_RH8_01_31604.mzXML	G96175	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96176_repeat_RE2_01_31625.mzXML	G96176	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96177_repeat_RG12_01_31637.mzXML	G96177	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96178_repeat2_RH10_01_31679.mzXML	G96178	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96179_repeat_2_RB3_01_31532.mzXML	G96179	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96180_RG4_01_31577.mzXML	G96180	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96181_repeat_RE11_01_31525.mzXML	G96181	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96182_repeat_RB4_01_31533.mzXML	G96182	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96183_RF2_01_31554.mzXML	G96183	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96184_RA6_01_31459.mzXML	G96184	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96185_repeat_RD3_01_31615.mzXML	G96185	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96186_RE7_01_31516.mzXML	G96186	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96187_RG3_01_31575.mzXML	G96187	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96188_RF3_01_31555.mzXML	G96188	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96189_RA7_01_31460.mzXML	G96189	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G96190_RE5_01_31513.mzXML	G96190	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G96191_RA8_01_31461.mzXML	G96191	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96192_RH7_01_31602.mzXML	G96192	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96193_repeat_RD8_01_31648.mzXML	G96193	yogurt	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96194_RD5_01_31500.mzXML	G96194	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96195_RG6_01_31579.mzXML	G96195	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96196_RC6_01_31488.mzXML	G96196	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96197_RA10_01_31463.mzXML	G96197	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96198_repeat_RH12_01_31646.mzXML	G96198	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G96199_RC11_01_31494.mzXML	G96199	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96200_RA3_01_31454.mzXML	G96200	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96201_RG5_01_31578.mzXML	G96201	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96202_repeat_RD6_01_31617.mzXML	G96202	milk with yogurt culture	milk	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72748_10x_BE4_01_17837.mzXML	11442.G72748	red miso paste, vons	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79668_5x_RE8_01_19527.mzXML	11442.G79668	white miso	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79669_1x_BF8_01_19544.mzXML	11442.G79669	korean miso	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G79695_5x_10ul_RF12_01_19558.mzXML	11442.G79695	miso	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79696_5x_RE12_01_19531.mzXML	11442.G79696	miso, light yellow	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79697_5x_10ul_RG12_01_19566.mzXML	11442.G79697	brown rice miso	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79730_5x_10ul_RG7_01_19561.mzXML	11442.G79730	Organic Traditional Red Miso - Miso Master Organic - miso paste (very brown)	miso	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79234_5x_BG11_01_18893.mzXML	11442.G79234	olive	olive	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79515_5x_10ul_RF11_01_19557.mzXML	11442.G79515	kalamata olive	olive	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79690_5x_RD12_01_19515.mzXML	11442.G79690	green olives, pitted, ripe medium	olive	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79691_5x_RC12_01_19500.mzXML	11442.G79691	black olives, pitted, extra large	olive	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79711_5x_RA11_01_19469.mzXML	11442.G79711	manzanilla olives	olive	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+78821_1x_BE6_01_17446.mzXML	11442.G78821	Store bought Olives Green	olive	TRUE	yes	yellow/green	0	0	0	0	0	0	0	0	0	1	0	0	0
+G83462_10x_BF11_01_23207.mzXML	11442.G83462	paneer	paneer	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79174_5x_rerun_14ul_RF4_01_19594.mzXML	11442.G79174	cooked roasted peanut tempeh	peanut tempeh	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73706_5x_10ul_RG8_01_19562.mzXML	11442.G73706	garlic dill pickle, fermenter's club	pickle	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79667_5x_10ul_RG10_01_19564.mzXML	11442.G79667	dill pickle	pickle	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G83249_1x_RG11_01_20356.mzXML	11442.G83249	purple carrot	carrot	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G83246_1x_RH11_01_20368.mzXML	11442.G83246	white carrot	carrot	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G83248_1x_RB11_01_20259.mzXML	11442.G83248	yellow carrot	carrot	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73939_5x_RA2_01_19459.mzXML	11442.G73939	pickled carrot	pickled carrot	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75248_5x_RE7_01_19526.mzXML	11442.G75248	pickled carrot	pickled carrot	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73435_1x_rerun_BG4_01_17376.mzXML	11442.G73435	green bean	fresh bean	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79289_1x_RB7_01_20256.mzXML	11442.G79289	green bean	fresh bean	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G73692_5x_10ul_rerun_RH8_01_19600.mzXML	11442.G73692	pickled green bean, fermenter's club	pickled green bean	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G78994_1x_RA3_01_18787.mzXML	11442.G78994	pickled onion; veggie grill	pickled onion	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G75251_5x_4ul_rerun_RH7_01_19641.mzXML	11442.G75251	pickled pole beans	pickled pole bean	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75249_5x_RC7_01_19495.mzXML	11442.G75249	green squash, pickled	pickled squash	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75250_5x_RA7_01_19465.mzXML	11442.G75250	yellow squash, pickled	pickled squash	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79707_5x_10ul_RG11_01_19565.mzXML	11442.G79707	spicy pickled vegetables, cauliflower	pickled vegetables	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79708_5x_RC11_01_19499.mzXML	11442.G79708	spicy pickled vegetables, jicama	pickled vegetables	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79709_5x_10ul_RH11_01_19579.mzXML	11442.G79709	spicy pickled vegetables, carrot	pickled vegetables	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73938_5x_RE2_01_19519.mzXML	11442.G73938	mixed pickled veggies	pickled veggie	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75780_p3_e9_GD3_01_21636.mzXML	11442.G75780	pinot noir	pinot	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75258_1x_10ul_RC10_01_18536.mzXML	11442.G75258	Pierre Frick Wine 1.; Pinot noir 2015	pinot noir	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72817_10x_BC12_01_17822.mzXML	11442.G72817	cooked pizza dough, pizza stand	pizza	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72818_10x_BC2_01_17900.mzXML	11442.G72818	raw dough, pizza stand	pizza	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75247_1x_RG9_01_18586.mzXML	11442.G75247	Empty-port wine; ramos pinto	port	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75777_1x_RG8_01_18585.mzXML	11442.G75777	tawny port	port	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74111_1x_RE8_01_18559.mzXML	11442.G74111	Good Belly Probiotic Juice	probiotic drink	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G83420_1x_rerun_RF6_01_26529.mzXML	11442.G83420	yakult original flavor from H mart probiotic drink	probiotic drink	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G83423_1x_rerun_RH12_01_26532.mzXML	11442.G83423	yakult probiotic drink	probiotic drink	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87499_1x_RG4_01_26456.mzXML	11442.G87499	Old vine zinfandel	red wine	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75778_1x_RB8_01_18615.mzXML	11442.G75778	2012 riesling	riesling	TRUE	yes	yellow	0	0	0	0	0	0	0	0	0	0	0	0	0
+75222_1x_15ul_rerun_BA9_01_21450.mzXML	11442.G75222	rose wine	rose wine	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72839_1x_RH2_01_18594.mzXML	11442.G72839	rum, flavored	rum	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74083_1x_RA8_01_18506.mzXML	11442.G74083	rum (40%alc/vol)	rum	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79676_5x_RD10_01_19513.mzXML	11442.G79676	14 salami sopressata style	salami	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79677_5x_RE11_01_19530.mzXML	11442.G79677	13 salami fennel pollen wine	salami	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79678_5x_RD11_01_19514.mzXML	11442.G79678	11 salami genoa-style back	salami	TRUE	yes	none	0	0	0	0	0	1	0	0	0	0	1	1	0
+G79679_5x_RB11_01_19483.mzXML	11442.G79679	12 salami pepper garlic wine	salami	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87443_1x_BE6_01_26053.mzXML	11442.G87443	salami	salami	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+73496_1x_BH8_01_20782.mzXML	11442.G73496	fish sauce	sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+75749_1x_BG3_01_20768.mzXML	11442.G75749	fish sauce	sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+75750_1x_4ul_rerun_BA3_01_21390.mzXML	11442.G75750	soy sauce/tamari sauce	sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+G72661_5x_RE5_01_20192.mzXML	11442.G72661	tabasco, 3 drops	sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79228_2x_RA12_01_19108.mzXML	11442.G79228	hot sauce cholula	sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73466_5x_10ul_rerun_RH6_01_19598.mzXML	11442.G73466	sauerkraut	sauerkraut	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G73693_5x_RC8_01_19496.mzXML	11442.G73693	cabbage, fermenter's club	sauerkraut	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79675_5x_10ul_RG2_01_19551.mzXML	11442.G79675	dill garlic sauerkraut	sauerkraut	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87427_1x_rerun_BB10_01_26145.mzXML	11442.G87427	savoy cabbage	not provided	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79704_5x_10ul_RH12_01_19580.mzXML	11442.G79704	sauerkraut with pickled persian cucumbers, kraut	sauerkraut	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79705_5x_RA12_01_19470.mzXML	11442.G79705	sauerkraut with pickled persian cucumbers, cucumber	sauerkraut	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75779_1x_RH8_01_18600.mzXML	11442.G75779	sauvignon blanc	sauvignon	TRUE	yes	yellow	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73707_5x_RD8_01_19511.mzXML	11442.G73707	scobie, fermenter's club	scobie	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74080_1x_RB7_01_18614.mzXML	11442.G74080	scotch	scotch whiskey	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78977_5x_10ul_BE8_01_19725.mzXML	11442.G78977	Sour Cream	sour cream	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+73510_1x_BE4_01_20752.mzXML	11442.G73510	9 soy sauce	soy sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+78856_1x_BF6_01_20763.mzXML	11442.G78856	soy sauce	soy sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86866_1x_RB10_01_23501.mzXML	11442.G86866	Kimlan soy sauce	soy sauce	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74051_1x_RB3_01_18612.mzXML	11442.G74051	vodka	spirit	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86970_1x_rerun_RF5_01_26528.mzXML	11442.G86970	tequila Corazon de Agave	spirit	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78840_5x_BE12_01_18323.mzXML	11442.G78840	Boursin cheese	spreading cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72797_BG2_01_19034.mzXML	11442.G72797	home brew beer biscuit	starch	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75161_5x_BE2_01_18313.mzXML	11442.G75161	string cheese	string cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79712_5x_BB10_01_19624.mzXML	11442.G79712	string cheese	string cheese	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+72717_5x_RG9_01_17512.mzXML	11442.G72717	matcha green tea	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73497_1x_BH3_01_20777.mzXML	11442.G73497	tea black, green, sugar	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+75733_1x_BH2_01_20776.mzXML	11442.G75733	pure leaf lemon tea	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75819_5x_2ul_BC3_01_19671.mzXML	11442.G75819	milk Oolong	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75820_5x_4ul_BD2_01_19707.mzXML	11442.G75820	Orchid Oolong	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75821_5x_4ul_BD3_01_19708.mzXML	11442.G75821	Golden Needle	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75822_5x_4ul_BF3_01_19732.mzXML	11442.G75822	lapsang souchong	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75823_5x_4ul_BH3_01_19754.mzXML	11442.G75823	English Breakfast	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75824_5x_4ul_BE3_01_19720.mzXML	11442.G75824	lychee black	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75825_5x_2ul_BB3_01_19648.mzXML	11442.G75825	vanilla peach apricot	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75826_5x_BA3_01_19609.mzXML	11442.G75826	Strawberry Sencha	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75831_5x_4ul_BG3_01_19743.mzXML	11442.G75831	dragonwell	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75832_5x_4ul_BD5_01_19711.mzXML	11442.G75832	bamboo mountain	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75833_5x_BA5_01_19611.mzXML	11442.G75833	bao zhong oolong	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75834_5x_4ul_BE4_01_19721.mzXML	11442.G75834	1st flush darjeeling	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75835_5x_2ul_BB5_01_19650.mzXML	11442.G75835	darjeeling 2nd flush	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75836_5x_4ul_BH5_01_19756.mzXML	11442.G75836	Assam	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75847_5x_BC5_01_19673.mzXML	11442.G75847	mandarin Pu-erh	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75848_5x_4ul_BG5_01_19745.mzXML	11442.G75848	sun moon lake	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75849_5x_4ul_BF4_01_19733.mzXML	11442.G75849	Silver Needles	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75850_5x_4ul_BF6_01_19735.mzXML	11442.G75850	Hojicha	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75851_5x_4ul_BE6_01_19723.mzXML	11442.G75851	japanese sencha	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75852_5x_4ul_BE7_01_19724.mzXML	11442.G75852	soaring crane	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75854_5x_2ul_BC7_01_19677.mzXML	11442.G75854	Gunpowder	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75855_5x_BA7_01_19613.mzXML	11442.G75855	High Mountain Nilgiri	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75856_5x_4ul_BD7_01_19713.mzXML	11442.G75856	Lapu Mountain Souchong	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75857_5x_4ul_BH7_01_19758.mzXML	11442.G75857	English Breakfast	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75860_1x_RH7_01_26475.mzXML	11442.G75860	Green Tea, iced, Tazo, organic	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79717_5x_4ul_BF5_01_19734.mzXML	11442.G79717	silver tip jasmine	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79718_5x_4ul_BD4_01_19710.mzXML	11442.G79718	dragon pearl jasmine	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79719_5x_2ul_BB6_01_19652.mzXML	11442.G79719	White Peony	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79720_5x_2ul_BC6_01_19676.mzXML	11442.G79720	Rose Peony	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79721_5x_4ul_BG6_01_19746.mzXML	11442.G79721	Dragon eye dong ding	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79722_5x_4ul_BH6_01_19757.mzXML	11442.G79722	Iron Goddess of Mercy	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79724_5x_4ul_BD6_01_19712.mzXML	11442.G79724	Wuyi Mountain	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79733_5x_4ul_BE5_01_19722.mzXML	11442.G79733	yunnan hong cha	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79737_5x_BA2_01_19608.mzXML	11442.G79737	immune booster (Immortalizer )	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79738_5x_4ul_BE2_01_19719.mzXML	11442.G79738	Early grey	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79739_5x_rerun_2ul_BB2_01_19647.mzXML	11442.G79739	market spice	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79740_5x_4ul_BH2_01_19753.mzXML	11442.G79740	jade earl green	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G83193_5x_RC12_01_20169.mzXML	11442.G83193	earl grey tea	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86754_10x_RF4_01_23199.mzXML	11442.G86754	jasmine green tea satchet	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G86772_10x_RF6_01_23201.mzXML	11442.G86772	rose tea leaves	tea	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G90286_1x_RH6_01_31136.mzXML	G90286	Prince of Peace Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90287_1x_RC12_01_31079.mzXML	G90287	Prince of Peace Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90366_1x_RB4_01_31059.mzXML	G90366	Prince of Peace Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90367_1x_BE6_01_31199.mzXML	G90367	Prince of Peace Oolong tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90368_1x_RE11_01_31104.mzXML	G90368	Prince of Peace Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90369_1x_RG9_01_31127.mzXML	G90369	Prince of Peace Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90370_1x_BD3_01_31186.mzXML	G90370	Prince of Peace Oolong tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G90371_1x_RG8_01_31126.mzXML	G90371	Prince of Peace Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95769_5x_BC12_01_32067.mzXML	G95769	Numi Emperor's pu-erh tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95770_5x_BB10_01_32049.mzXML	G95770	Numi Emperor's pu-erh tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95772_5x_BB12_01_32051.mzXML	G95772	American Classic (Charleston Tea Plantation) Black Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95773_5x_BB5_01_32042.mzXML	G95773	American Classic (Charleston Tea Plantation) Black Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95774_5x_BB4_01_32041.mzXML	G95774	American Classic (Charleston Tea Plantation) Black Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95778_5x_BB9_01_32048.mzXML	G95778	Allegro Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95779_5x_BA12_01_32035.mzXML	G95779	Allegro Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95780_5x_BA11_01_32034.mzXML	G95780	Allegro Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95781_5x_BC11_01_32066.mzXML	G95781	Charleston Tea Plantation Green Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95784_5x_BD2_01_32071.mzXML	G95784	Higgins & Burke english breakfast tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95785_5x_BB3_01_32040.mzXML	G95785	Higgins & Burke english breakfast tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95786_5x_BC6_01_32059.mzXML	G95786	Higgins & Burke english breakfast tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95793_5x_BB7_01_32044.mzXML	G95793	Higgins & Burke Green vert tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G95794_5x_BC9_01_32064.mzXML	G95794	Higgins & Burke Green vert tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G95795_5x_BA8_01_32031.mzXML	G95795	Higgins & Burke Green vert tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96338_5x_BA2_01_32025.mzXML	G96338	Prince of Peace Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96339_5x_BA4_01_32027.mzXML	G96339	Prince of Peace Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96340_5x_BC3_01_32056.mzXML	G96340	Prince of Peace Oolong Tea solid sample	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96459_1x_BA10_01_31157.mzXML	G96459	ALLEGRO aged Pu'er tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96460_1x_BF3_01_31204.mzXML	G96460	ALLEGRO aged Pu'er tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96461_1x_BC7_01_31178.mzXML	G96461	ALLEGRO aged Pu'er tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96462_1x_BE2_01_31195.mzXML	G96462	ALLEGRO aged Pu'er tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96463_1x_RF10_01_31115.mzXML	G96463	ALLEGRO aged Pu'er tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96464_1x_RF6_01_31111.mzXML	G96464	ALLEGRO aged Pu'er tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96465_1x_RH2_01_31132.mzXML	G96465	ALLEGRO aged Pu'er tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96466_1x_BC4_01_31175.mzXML	G96466	ALLEGRO aged Pu'er tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96505_1x_BD6_01_31189.mzXML	G96505	American Classic Tea Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96571_1x_BE5_01_31198.mzXML	G96571	Numi Emperor's Pu'er tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96572_1x_BB6_01_31165.mzXML	G96572	Numi Emperor's Pu'er tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96574_1x_BH8_01_31230.mzXML	G96574	Numi Emperor's Pu'er tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96576_1x_BD2_01_31185.mzXML	G96576	Numi Emperor's Pu'er tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96577_1x_BG3_01_31215.mzXML	G96577	Numi Emperor's Pu'er tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96578_1x_BF4_01_31205.mzXML	G96578	Numi Emperor's Pu'er tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96579_1x_RC9_01_31076.mzXML	G96579	Numi Emperor's Pu'er tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96580_1x_RC8_01_31075.mzXML	G96580	Numi Emperor's Pu'er tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96581_1x_BH8_01_31228.mzXML	G96581	Numi Emperor's Pu'er tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96582_1x_BA6_01_31152.mzXML	G96582	Numi Emperor's Pu'er tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96589_1x_RA12_01_31055.mzXML	G96589	Higghing & Burke Green vert Green tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96590_1x_RA4_01_31046.mzXML	G96590	Higghing & Burke Green vert Green tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96598_1x_RC2_01_31069.mzXML	G96598	Higghing & Burke Green vert Green tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96599_1x_BB7_01_31166.mzXML	G96599	Higghing & Burke Green vert Green tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96617_1x_RE2_01_31095.mzXML	G96617	Prince of Peace Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96624_1x_RE7_01_31100.mzXML	G96624	Prince of Peace Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96629_1x_rerun_BF6_01_31210.mzXML	G96629	Prince of Peace Oolong tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96634_1x_RC4_01_31071.mzXML	G96634	Prince of Peace Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96653_1x_RG4_01_31121.mzXML	G96653	Allegro Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96654_1x_RD12_01_31091.mzXML	G96654	Allegro Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96655_1x_RC11_01_31078.mzXML	G96655	Allegro Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96656_1x_BB8_01_31167.mzXML	G96656	Allegro Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96657_1x_BG6_01_31218.mzXML	G96657	Allegro Oolong tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96659_1x_RF11_01_31116.mzXML	G96659	Allegro Oolong tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96660_1x_RG11_01_31129.mzXML	G96660	Allegro Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96661_1x_RE12_01_31105.mzXML	G96661	Allegro Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96662_1x_BG2_01_31214.mzXML	G96662	Allegro Oolong tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96663_1x_RD3_01_31082.mzXML	G96663	Allegro Oolong tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96664_1x_RA10_01_31053.mzXML	G96664	Allegro Oolong tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96667_1x_RF8_01_31113.mzXML	G96667	American Classic Tea Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96668_1x_RC3_01_31070.mzXML	G96668	American Classic Tea Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96669_1x_RE6_01_31099.mzXML	G96669	Higghing & Burke english breakfast Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96670_1x_RH5_01_31135.mzXML	G96670	American Classic Tea Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96671_1x_BD4_01_31187.mzXML	G96671	Higghing & Burke english breakfast Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96672_1x_BC5_01_31176.mzXML	G96672	Higghing & Burke english breakfast Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96673_1x_RF5_01_31110.mzXML	G96673	American Classic Tea Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96674_1x_BG8_01_31220.mzXML	G96674	American Classic Tea Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96675_1x_RB7_01_31062.mzXML	G96675	American Classic Tea Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96677_1x_RH8_01_31138.mzXML	G96677	Higghing & Burke english breakfast Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96678_1x_RH4_01_31134.mzXML	G96678	American Classic Tea Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96679_1x_RH7_01_31137.mzXML	G96679	American Classic Tea Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96680_1x_BD5_01_31188.mzXML	G96680	American Classic Tea Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96681_1x_RF2_01_31107.mzXML	G96681	American Classic Tea Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96682_1x_BA5_01_31151.mzXML	G96682	Higghing & Burke english breakfast Black tea Brewed For 4hours	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96683_1x_RD9_01_31088.mzXML	G96683	Higghing & Burke english breakfast Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96685_1x_RA9_01_31052.mzXML	G96685	Higghing & Burke english breakfast Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96686_1x_RD4_01_31083.mzXML	G96686	Higghing & Burke english breakfast Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96687_1x_RC5_01_31072.mzXML	G96687	Higghing & Burke english breakfast Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96688_1x_RG10_01_31128.mzXML	G96688	Higghing & Burke english breakfast Black tea Brewed For 1min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96689_1x_RF3_01_31108.mzXML	G96689	Higghing & Burke english breakfast Black tea Brewed For 4min	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G96690_1x_RG6_01_31123.mzXML	G96690	Higghing & Burke english breakfast Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G96695_1x_RD2_01_31081.mzXML	G96695	American Classic Tea Black tea Brewed For 30sec	tea	FALSE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+74119_1x_12ul_rerun_BB3_01_21454.mzXML	11442.G74119	green tea with sugar	tea for kombucha	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79172_5x_RA3_01_19460.mzXML	11442.G79172	raw roasted peanut tempeh	tempeh	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G78917_rerun_5ul_RC4_01_17654.mzXML	11442.G78917	black lentils	lentil	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75587_5x_BD9_01_19996.mzXML	11442.G75587	french green lentils	lentil	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G78862_RD2_01_17571.mzXML	11442.G78862	red lentils	lentil	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79173_5x_RD3_01_19505.mzXML	11442.G79173	raw lentil tempeh	tempeh	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79177_5x_rerun_RC4_01_19491.mzXML	11442.G79177	cooked lentil tempeh	tempeh	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G74078_1x_RH6_01_18598.mzXML	11442.G74078	tequila	tequila	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G72477_1x_BF2_01_19535.mzXML	11442.G72477	uncooked tempeh	vegan dish	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G73467_5x_RD6_01_19508.mzXML	11442.G73467	tempeh	vegan dish	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79175_5x_RD4_01_19506.mzXML	11442.G79175	raw chickpea/sunflower seed tempeh	vegan dish	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79176_5x_RA4_01_19461.mzXML	11442.G79176	cooked chickpea/sunflower seed tempeh	vegan dish	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73471_1x_rerun_BA4_01_21391.mzXML	11442.G73471	apple cider vinegar	vinegar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+73472_1x_BC4_01_20736.mzXML	11442.G73472	rice vinegar	vinegar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86855_1x_RA12_01_23488.mzXML	11442.G86855	vinegar	vinegar	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74085_1x_RE11_01_18562.mzXML	11442.G74085	vodka (40%alc/vol)	vodka	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+75219_1x_20ul_BD8_01_21381.mzXML	11442.G75219	Whiskey	whiskey	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74079_1x_RD8_01_18545.mzXML	11442.G74079	bourbon whiskey (40alc/vol)	whiskey	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+RD5_RD5_01_49097.mzXML	F37_wine.white	wine.white	wine	not entered	yes	not applicable	0	0	0	0	0	0	0	0	0	1	0	0	0
+78845_1x_BG6_01_20772.mzXML	11442.G78845	barefoot merlot	wine	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72835_1x_RE2_01_18553.mzXML	11442.G72835	red wine	wine	TRUE	yes	red	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75245_1x_RA10_01_18499.mzXML	11442.G75245	wine 4 coach insignia; cabernet sauvignon	wine	TRUE	yes	red	0	0	0	0	0	0	0	0	0	1	0	0	0
+G72680_5x_rerun_12ul_RC2_01_19590.mzXML	11442.G72680	strawberry greek yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G75076_2x_RE2_01_19164.mzXML	11442.G75076	siggis skyr	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G75120_5x_rerun_14ul_RC6_01_19592.mzXML	11442.G75120	yogurt sample; oikos; Costco	yogurt	TRUE	yes	none	0	0	0	0	0	1	0	0	0	1	1	0	0
+G78957_5x_15ul_RG4_01_19643.mzXML	11442.G78957	homemade yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79215_5x_RE5_01_19522.mzXML	11442.G79215	homemade yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79703_5x_10ul_rerun_BG9_01_19767.mzXML	11442.G79703	yogurt, plain, fat free	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79732_5x_rerun_10ul_RB8_01_19588.mzXML	11442.G79732	homemade yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86722_1x_BF10_01_23206.mzXML	11442.G86722	Dreaming cow yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86872_1x_BE10_01_23191.mzXML	11442.G86872	homemade yogurt made with organic straus whole milk	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G86888_1x_BB6_01_26558.mzXML	11442.G86888	homemade yogurt; made with organic whole milk straus from jimbos; and starter yogurt also from jimbos plain (will find out brand name from Jan, jan. 30th batch)	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G87353_1x_BF3_01_26153.mzXML	11442.G87353	low-fat yogurt	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87456_1x_BE6_01_26595.mzXML	11442.G87456	homemade yogurt; made with organic whole milk straus from jimbos; and starter yogurt also from jimbos plain (will find out brand name from Jan, jan. 23 batch)	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G87460_1x_BG6_01_26637.mzXML	11442.G87460	chobani greek yogurt WITHOUT peach fruit mixed	yogurt	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+G79700_5x_BG11_01_19667.mzXML	11442.G79700	So Delicious dairy free; coconut milk; yogurt alternative	yogurt alternative	TRUE	yes	none	0	0	0	0	0	0	0	0	0	0	0	0	0
+G74069_1x_RE7_01_18558.mzXML	11442.G74069	red wine, zinfandel	zinfindel	TRUE	yes	none	0	0	0	0	0	0	0	0	0	1	0	0	0
+CW_110.S_F1.T0_BH6_01_13175.mzXML	CW110_S_F1_T0	Fuji	apple juice	TRUE	no	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_111.S_F1.T1_BH7_01_13176.mzXML	CW111_S_F1_T1	Fuji	fermenting apple juice	TRUE	no	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+CW_112.S_F2.T1_BH8_01_13177.mzXML	CW112_S_F2_T1	Fuji	fermenting apple juice	TRUE	no	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+cw105.F1.skin_G86762_5x_witt_RD12_01_21690.mzXML	CW109_F1_skin	Fuji	apple skin	TRUE	no	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+G79276_1x_RG8_01_20353.mzXML	11442.G79276	grape, red	grape	TRUE	no	none	0	0	0	0	0	0	0	0	0	0	1	0	0
+73714_1x_BA9_01_17392.mzXML	11442.G73714	grapes	grape	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	1	0	0
+G75201_1x_rerun_BH1_01_17367.mzXML	11442.G75201	grapes	grape	TRUE	no	none	0	0	0	0	0	0	0	0	0	1	0	0	0

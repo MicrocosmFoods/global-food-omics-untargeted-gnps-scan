@@ -1,0 +1,163 @@
+---
+title: "Search for fermentation metabolites in MSV000084900"
+author:
+  - name: Evoquant LLC
+format:
+  html:
+    df-print: paged
+    code-fold: true
+    code-summary: "Show the code"
+    page-layout: full
+    toc: true
+    toc-depth: 2
+    embed-resources: true
+include-in-header:
+  - text: |
+      <style>
+        .table {
+          width: auto !important;
+          max-width: 100%;
+          overflow-x: auto; /* Enable horizontal scrolling */
+          display: block; /* Ensures scrolling works */
+          white-space: nowrap; /* Prevents wrapping of text */
+        }
+      </style>
+
+---
+
+# Custom search results
+
+This notebook is a custom search for fermentation metabolites in the GNPS2 dataset MSV000084900. The goal was to find MS2 spectra that match the fermentation metabolites of interest. The start of each section is a table of the top matches for that molecule. The table is followed by a series of mirror plots for each match. Each subsection is titled by: GNPS cluster ID, the GNPS compound's name, the filename, and the MS2 scan number. The plots are interactive and can be zoomed in on. The tables are also scrollable horizontally.
+
+
+```{python}
+
+
+from scripts.search_mzxml_for_ms2_by_precursor import main as search_mzxml_for_ms2_by_precursor
+from scripts.metabolites_of_interest_gnps_library_lookup import create_df as create_metabolites_of_interest_gnps_library_lookup
+from scripts.compare_search_results_to_gnps_library import run_in_parallel
+from scripts.mirror_plot import mirror_plot
+from IPython.display import display, HTML
+import os
+import ast
+import pickle
+from pathlib import Path
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 0) # Adjust display width if needed
+
+# Get environment variables or use default values
+TOP_DIR = os.getenv("TOP_DIR", ".")
+CALC_DIR = Path(os.getenv("CALC_DIR", Path(TOP_DIR, "data", "calculated"))).resolve()
+INTERMEDIATE_DIR = Path(os.getenv("INTERMEDIATE_DIR", Path(CALC_DIR, "intermediate"))).resolve()
+MSV000084900_DIR = Path(os.getenv("MSV000084900_DIR", Path(TOP_DIR, "data/MSV000084900/v02"))).resolve()
+GNPS2_RESULTS_DIR = Path(os.getenv("GNPS2_RESULTS_DIR", Path(TOP_DIR, "data/gnps2_results/18d82f1067e643538adf9b73147122c3"))).resolve()
+
+CALC_DIR.mkdir(parents=True, exist_ok=True)
+INTERMEDIATE_DIR.mkdir(parents=True, exist_ok=True)
+
+# Check the directories
+def check_top_dir(TOP_DIR=TOP_DIR):
+    TOP_DIR = Path(TOP_DIR).resolve()
+    if not TOP_DIR.exists():
+        raise FileNotFoundError(f"Directory {TOP_DIR} does not exist.")
+    with open(Path(TOP_DIR, "topdirvalidator"), "r") as f:
+        line = f.readline()
+        if line != "4a1b9837696299d80967925a0e49fff8":
+            raise ValueError(f"Unexpected TOP_DIR: {TOP_DIR} ")   
+
+def check_msv000084900_dir(MSV000084900_DIR=MSV000084900_DIR):
+    if not MSV000084900_DIR.exists():
+        raise FileNotFoundError(f"Directory {MSV000084900_DIR} does not exist.")
+
+def check_gnps2_results_dir(GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR):
+    # Check that clusterinfo.tsv exists
+    if not Path(GNPS2_RESULTS_DIR, "nf_output/clustering/clusterinfo.tsv").exists():
+        raise FileNotFoundError(f"Directory {GNPS2_RESULTS_DIR} does not exist.")
+
+check_top_dir(TOP_DIR)
+check_msv000084900_dir(MSV000084900_DIR)
+check_gnps2_results_dir(GNPS2_RESULTS_DIR)
+
+
+```
+
+
+```{python}
+import plotly.io as pio
+pio.renderers.default = 'notebook'
+```
+
+```{python}
+def get_top_matches(molecule):
+    with open(Path(CALC_DIR, f"search_results/{molecule}.pkl"), "rb") as f:
+        df = pickle.load(f)
+    # if none or empty
+    if df is None or df.empty:
+        return df
+    # require at least 5 matches
+    df = df[df['CosineGreedy_matches'] >= 5]
+    if df.empty:
+        return df
+    df['top_match'] = df.groupby('gnps_cluster')['CosineGreedy_score'].transform('max')
+    top_matches = df[df['CosineGreedy_score'] == df['top_match']]
+    df['filename_standardized_count'] = df.groupby('gnps_cluster')['filename_standardized'].transform('nunique')
+    df_sorted = df.sort_values(by=['gnps_cluster', 'CosineGreedy_matches', 'CosineGreedy_score'],
+                               ascending=[True, False, False])
+    top_cosine_scores = df_sorted.drop_duplicates(subset='gnps_cluster', keep='first').reset_index(drop=True)
+    return top_cosine_scores
+
+def plot_row(df, index):
+  # use loc or iloc not values
+  spec = df['sample_spectrum'].iloc[index]
+  ccmslib_spectrum = df['ccmslib_spectrum'].iloc[index]
+  species = df['species'].iloc[index]
+  cos_score = df['CosineGreedy_score'].iloc[index]
+  n_matches = df['CosineGreedy_matches'].iloc[index]
+  gnps_cluster = df['gnps_cluster'].iloc[index]
+  return mirror_plot(
+    sample_spectrum=spec,
+    ccmslib_spectrum=ccmslib_spectrum,
+    species=species,
+    cos_score=cos_score,
+    n_matches=n_matches,
+    gnps_cluster=gnps_cluster,
+    label_top_n=10,
+    max_peaks_per_spectrum=100,
+  )
+```
+
+```{python}
+#| output: asis
+from IPython.display import display
+molecules=['2-hydroxy-3-methylvalerate','3-3-PPA','3-hydroxybutyric acid','hyodeoxycholic acid','4-hydroxyphenyllactic acid','Acetate','alpha-hydroxyisocaproate','Conjugated linoleic acid','D-phenyllactic acid','GABA','Glutamate','Hippuric acid','Histamine','Indole-3-lactic acid','Indole-3-propionic acid','Indopropionic acid','Lactic acid','Propionate','Serotonin','Succinate','TMAO','TMA','Tryptophan',]
+
+
+# Track whether Plotly.js has been included
+first_plot = True
+
+for molecule in molecules:
+    # Print molecule name as H1
+    print(f"# {molecule}")
+
+    df = get_top_matches(molecule)
+    if df is None or df.empty:
+        print("No matches found.\n")
+        continue
+
+    display(HTML(df.to_html(index=False, classes='table')))
+
+    for i in range(len(df)):
+        fig = plot_row(df, i)
+        t1 = df['ccmslib_spectrum'].iloc[i].metadata['spectrum_id']
+        t2 = df['ccmslib_spectrum'].iloc[i].metadata['compound_name']
+        t3 = df['filename_standardized'].iloc[i]
+        t4 = df['scan'].iloc[i]
+        print(f"## {t1} ({t2}); {t3}; {t4}")
+
+        # Include Plotly.js only for the first plot, then disable it
+        include_js = "cdn" if first_plot else False
+        first_plot = False  # Set to False after the first plot
+        
+        display(HTML(fig.to_html(include_plotlyjs=include_js)))
+```

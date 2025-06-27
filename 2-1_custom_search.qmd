@@ -1,0 +1,118 @@
+---
+title: "Search for fermentation metabolites in MSV000084900"
+author:
+  - name: Evoquant LLC
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    page-layout: full
+    toc: true
+    toc-depth: 3
+    embed-resources: true  
+---
+
+
+# Custom Search
+
+This notebook is a custom search for fermentation metabolites in the GNPS2 dataset MSV000084900. The goal is to find MS2 spectra that match the fermentation metabolites of interest. It doesn't display any results. Running the notebook will create a set of files in the `data/calculated` directory. 
+
+
+```{python}
+#| label: Set environment and libraries
+
+from scripts.search_mzxml_for_ms2_by_precursor import main as search_mzxml_for_ms2_by_precursor
+from scripts.metabolites_of_interest_gnps_library_lookup import create_df as create_metabolites_of_interest_gnps_library_lookup
+from scripts.compare_search_results_to_gnps_library import run_in_parallel, load_gnps_library
+from pathlib import Path
+import os
+import pickle 
+import ast
+import pickle
+from scripts.mirror_plot import mirror_plot, plot_gnps_hits
+import pandas as pd
+import plotly.io as pio
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 0) # Adjust display width if needed
+
+# Get environment variables or use default values
+TOP_DIR = os.getenv("TOP_DIR", ".")
+CALC_DIR = Path(os.getenv("CALC_DIR", Path(TOP_DIR, "data", "calculated"))).resolve()
+INTERMEDIATE_DIR = Path(os.getenv("INTERMEDIATE_DIR", Path(CALC_DIR, "intermediate"))).resolve()
+MSV000084900_DIR = Path(os.getenv("MSV000084900_DIR", Path(TOP_DIR, "data/MSV000084900/v02"))).resolve()
+GNPS2_RESULTS_DIR = Path(os.getenv("GNPS2_RESULTS_DIR", Path(TOP_DIR, "data/gnps2_results/18d82f1067e643538adf9b73147122c3"))).resolve()
+
+CALC_DIR.mkdir(parents=True, exist_ok=True)
+INTERMEDIATE_DIR.mkdir(parents=True, exist_ok=True)
+
+# Check the directories
+def check_top_dir(TOP_DIR=TOP_DIR):
+    TOP_DIR = Path(TOP_DIR).resolve()
+    if not TOP_DIR.exists():
+        raise FileNotFoundError(f"Directory {TOP_DIR} does not exist.")
+    with open(Path(TOP_DIR, "topdirvalidator"), "r") as f:
+        line = f.readline()
+        if line != "4a1b9837696299d80967925a0e49fff8":
+            raise ValueError(f"Unexpected TOP_DIR: {TOP_DIR} ")   
+
+def check_msv000084900_dir(MSV000084900_DIR=MSV000084900_DIR):
+    if not MSV000084900_DIR.exists():
+        raise FileNotFoundError(f"Directory {MSV000084900_DIR} does not exist.")
+
+def check_gnps2_results_dir(GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR):
+    # Check that clusterinfo.tsv exists
+    if not Path(GNPS2_RESULTS_DIR, "nf_output/clustering/clusterinfo.tsv").exists():
+        raise FileNotFoundError(f"Directory {GNPS2_RESULTS_DIR} does not exist.")
+
+check_top_dir(TOP_DIR)
+check_msv000084900_dir(MSV000084900_DIR)
+check_gnps2_results_dir(GNPS2_RESULTS_DIR)
+
+MOLECULE_OF_INTEREST=['2-hydroxy-3-methylvalerate','3-3-PPA','3-hydroxybutyric acid','hyodeoxycholic acid','4-hydroxyphenyllactic acid','Acetate','alpha-hydroxyisocaproate','Conjugated linoleic acid','D-phenyllactic acid','GABA','Glutamate','Hippuric acid','Histamine','Indole-3-lactic acid','Indole-3-propionic acid','Indopropionic acid','Lactic acid','Propionate','Serotonin','Succinate','TMAO','TMA','Tryptophan','alpha-hydroxyisovalerate']
+
+```
+
+The code below searches all mzXML files in MSV000084900 for MS2 spectra that have a precursor mass within 3 ppm of the metabolites of interest as well as a specified list of common and expected adducts. The results are saved in the `data/calculated/intermediate/search_results_mslevel_2` directory.
+
+```{python}
+#| label: Search for fermentation metabolites in MSV000084900
+#| output: false
+
+if not Path(INTERMEDIATE_DIR, "search_results_mslevel_2").exists():
+  search_mzxml_for_ms2_by_precursor(
+      metabolites_tsv = Path(TOP_DIR, "data/metabolites_of_interest_no_charge_formulas.tsv"),
+      adducts_tsv = Path(TOP_DIR, "data/mass_adducts.tsv"),
+      basedir = MSV000084900_DIR,
+      subdir = MSV000084900_DIR,
+      ppm_tolerance = 5,
+      cpus = 20, # Adjust the number of CPUs as needed
+      level = 2,
+      output_dir = Path(INTERMEDIATE_DIR, "search_results_mslevel_2"),
+      force = False # Set to True to force reprocessing
+  )
+```
+
+
+The code below searches all mzXML files in MSV000084900 for MS2 spectra that have a precursor mass within 3 ppm of the metabolites of interest as well as a specified list of common and expected adducts. The results are saved in the data/calculated/intermediate/search_results_mslevel_2 directory. For each metabolite of interest and each MS2 spectrum found, the best matching spectrum in the GNPS2 results is identified by comparing the MS2 spectra using [Greedy cosine similarity](https://matchms.readthedocs.io/en/latest/api/matchms.similarity.CosineGreedy.html).
+
+```{python}
+#| output: false
+metabolites_of_interest_gnps_library_lookup_path=Path(INTERMEDIATE_DIR, 'metabolites_of_interest_gnps_library_lookup.tsv')
+search_results_path=Path(INTERMEDIATE_DIR, "search_results_mslevel_2")
+gnps2_results_dir=GNPS2_RESULTS_DIR
+output_dir=Path(CALC_DIR,"search_results")
+if not output_dir.exists():
+  output_dir.mkdir(parents=True, exist_ok=True)
+  run_in_parallel(
+      gnps_mgf=Path(TOP_DIR, "data/ALL_GNPS_cleaned.mgf"),
+      metabolites_of_interest_gnps_library_lookup_path=metabolites_of_interest_gnps_library_lookup_path,
+      search_results_path=search_results_path,
+      moi_lookup_path=metabolites_of_interest_gnps_library_lookup_path,
+      gnps2_results_dir=gnps2_results_dir,
+      output_path=Path(output_dir),
+      algorithm="CosineGreedy", 
+      score_threshold=0.5, 
+      k_top_peaks=10, 
+      mz_window=5
+      )    
+```

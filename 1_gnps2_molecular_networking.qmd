@@ -1,0 +1,203 @@
+---
+title: "Search for fermentation metabolites in MSV000084900"
+author:
+  - name: Evoquant LLC
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    page-layout: full
+    toc: true
+    toc-depth: 3  
+    embed-resources: true  
+include-in-header:
+  - text: |
+      <style>
+        .table {
+          width: auto !important;
+          max-width: 100%;
+          overflow-x: auto; /* Enable horizontal scrolling */
+          display: block; /* Ensures scrolling works */
+          white-space: nowrap; /* Prevents wrapping of text */
+        }
+      </style>
+---
+
+# Introduction
+
+The fermented foods residency group at the Astera Institute wanted to search for a set of metabolites in an existing public dataset: [MassIVE MSV000084900](https://doi.org/doi:10.25345/C5RH6S) GNPS Global Foodomics dataset 3500 ("Metabolite analysis of 3,500 food and beverage samples, ethanol extraction. Data were acquired using a Bruker Daltonics maXis Impact and C18 RP-UHPLC. Positive polarity acquisition of LC-MS/MS."). Prior to this analysis we evaluated that list for likelihood of detection in the dataset, and found that almost all of the metabolites of interest were low molecular weight and polar which would lend to less retention on C18 columns (potential to elute before MS scans begin), and many were much more likely to be detected in negative ion mode than positive mode (dataset collected in positive mode only). It was decided to proceed to search for the metabolite of interest and this notebook is the result of that search for these analytes across the 3,500 mzXMLs using the [GNPS2](https://gnps2.org/homepage) platform.
+
+```{python}
+#| echo: false
+from scripts.deliverable_1 import gendata, render_html_table_with_images
+from IPython.display import display, HTML
+df = gendata(
+    gnps_library_json_path="data/gnpslibrary.json",
+    output_path="data/calculated/delivery_1_partial.pkl",
+)
+display(HTML(render_html_table_with_images(df)))
+```
+
+
+```{python}
+#| label: Set environment and libraries
+
+from scripts.search_mzxml_for_ms2_by_precursor import main as search_mzxml_for_ms2_by_precursor
+from scripts.metabolites_of_interest_gnps_library_lookup import create_df as create_metabolites_of_interest_gnps_library_lookup
+from scripts.compare_search_results_to_gnps_library import run_in_parallel, load_gnps_library
+from pathlib import Path
+import os
+import pickle 
+import ast
+import pickle
+from scripts.mirror_plot import mirror_plot, plot_gnps_hits
+import pandas as pd
+import plotly.io as pio
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 0) # Adjust display width if needed
+
+# Get environment variables or use default values
+TOP_DIR = os.getenv("TOP_DIR", ".")
+CALC_DIR = Path(os.getenv("CALC_DIR", Path(TOP_DIR, "data", "calculated"))).resolve()
+INTERMEDIATE_DIR = Path(os.getenv("INTERMEDIATE_DIR", Path(CALC_DIR, "intermediate"))).resolve()
+MSV000084900_DIR = Path(os.getenv("MSV000084900_DIR", Path(TOP_DIR, "data/MSV000084900/v02"))).resolve()
+GNPS2_RESULTS_DIR = Path(os.getenv("GNPS2_RESULTS_DIR", Path(TOP_DIR, "data/gnps2_results/18d82f1067e643538adf9b73147122c3"))).resolve()
+
+CALC_DIR.mkdir(parents=True, exist_ok=True)
+INTERMEDIATE_DIR.mkdir(parents=True, exist_ok=True)
+
+# Check the directories
+def check_top_dir(TOP_DIR=TOP_DIR):
+    TOP_DIR = Path(TOP_DIR).resolve()
+    if not TOP_DIR.exists():
+        raise FileNotFoundError(f"Directory {TOP_DIR} does not exist.")
+    with open(Path(TOP_DIR, "topdirvalidator"), "r") as f:
+        line = f.readline()
+        if line != "4a1b9837696299d80967925a0e49fff8":
+            raise ValueError(f"Unexpected TOP_DIR: {TOP_DIR} ")   
+
+def check_msv000084900_dir(MSV000084900_DIR=MSV000084900_DIR):
+    if not MSV000084900_DIR.exists():
+        raise FileNotFoundError(f"Directory {MSV000084900_DIR} does not exist.")
+
+def check_gnps2_results_dir(GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR):
+    # Check that clusterinfo.tsv exists
+    if not Path(GNPS2_RESULTS_DIR, "nf_output/clustering/clusterinfo.tsv").exists():
+        raise FileNotFoundError(f"Directory {GNPS2_RESULTS_DIR} does not exist.")
+
+check_top_dir(TOP_DIR)
+check_msv000084900_dir(MSV000084900_DIR)
+check_gnps2_results_dir(GNPS2_RESULTS_DIR)
+
+MOLECULE_OF_INTEREST=['2-hydroxy-3-methylvalerate','3-3-PPA','3-hydroxybutyric acid','hyodeoxycholic acid','4-hydroxyphenyllactic acid','Acetate','alpha-hydroxyisocaproate','Conjugated linoleic acid','D-phenyllactic acid','GABA','Glutamate','Hippuric acid','Histamine','Indole-3-lactic acid','Indole-3-propionic acid','Indopropionic acid','Lactic acid','Propionate','Serotonin','Succinate','TMAO','TMA','Tryptophan','alpha-hydroxyisovalerate']
+
+```
+
+
+# Find all GNPS library entries that match the metabolites of interest
+
+Given the names and PubChem CIDs of the metabolites of interest, find all matching entries in the GNPS public library via planar InChI Key.
+
+```{python}
+#| label: Generate metabolite of interest TSV
+#| output: false
+create_metabolites_of_interest_gnps_library_lookup(
+  json_path = Path(TOP_DIR, 'data', 'gnpslibrary.json'),
+  outpath = Path(INTERMEDIATE_DIR, 'metabolites_of_interest_gnps_library_lookup.tsv')
+)
+```
+
+
+# GNPS2 Library Matches
+
+## Search by planar InChIKey 
+The results displayed are only the matches where the metabolite of interest has a corresponding entry in the GNPS library *with the same planar InChIKey*.
+
+The tables are filtered results form spectra clustering by GNPS2 (`nf_output/networking/clustersummary_with_network.tsv`). Mirror plots are the GNPS library spectrum and the first entry in the GNPS2 cluster.
+
+
+```{python}
+#| label: Load MGF data (slow)
+#| echo: false
+
+MGF_DATA_DICT=load_gnps_library(str(Path(TOP_DIR, 'data/ALL_GNPS.mgf')))
+```
+
+
+
+```{python}
+#| output: asis
+from IPython.display import display, HTML
+
+df = pd.read_csv(Path(INTERMEDIATE_DIR, 'metabolites_of_interest_gnps_library_lookup.tsv'), sep='\t')
+gnps_result_df = pd.read_csv(Path(GNPS2_RESULTS_DIR, 'nf_output/networking/clustersummary_with_network.tsv'), sep='\t', low_memory=False)
+df['submatch_positive'] = df['submatch_positive'].apply(ast.literal_eval)
+df['submatch_negative'] = df['submatch_negative'].apply(ast.literal_eval)
+df['gnps_ids'] = df.apply(lambda row: [i['spectrum_id'] for i in row['submatch_positive']] + 
+                                   [i['spectrum_id'] for i in row['submatch_negative']], axis=1)
+df.drop(columns=['submatch_positive', 'submatch_negative'], inplace=True)
+
+no_matches = []
+for _, row in df.iterrows():
+    tdf = gnps_result_df[gnps_result_df['SpectrumID'].isin(row['gnps_ids'])]
+    if tdf.empty:
+        no_matches.append(row['metabolite_of_interest'])
+    else:
+      print(f"### {row['metabolite_of_interest']}\n")
+      display(HTML(tdf.to_html(index=False, classes='table')))
+      if tdf.iloc[0]['SpectrumID'] not in MGF_DATA_DICT:
+          print(f"Warning: SpectrumID {tdf.iloc[0]['SpectrumID']} not found in MGF_DATA_DICT\n")
+          continue
+      fig = plot_gnps_hits(
+          tdf=tdf,
+          mgf=MGF_DATA_DICT,
+          GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR,
+          MSV000084900_DIR=MSV000084900_DIR,
+      )
+      fig.show()
+
+# Print metabolites with no matches
+print("- **No matches found for the following metabolites:**")
+for metabolite in no_matches:
+    print(f"  - {metabolite}")
+```
+
+## Manual examination of GNPS2 search results
+
+CCMSLIB00003138284	371	specs_ms.mgf	GNPS-NIST14-MATCHES.mgf	0.863861	10861.2	0	0	5	0	165.055	0	temp/specs_ms.mgf371	1	Spectral Match to p-Hydroxyphenyllactic acid from NIST14
+CCMSLIB00010010644	8345	specs_ms.mgf	ECG-ACYL-AMIDES-C4-C24-LIBRARY.mgf	0.986215	8975.94	0	4.16397	6	0.000991821	238.19	0	temp/specs_ms.mgf8345	1	histamine-C8:0
+
+
+```{python}
+#| output: asis
+
+gnps_result_df = pd.read_csv(Path(GNPS2_RESULTS_DIR, 'nf_output/networking/clustersummary_with_network.tsv'), sep='\t', low_memory=False)
+tdf = gnps_result_df[gnps_result_df['SpectrumID'].isin(['CCMSLIB00003138284'])]
+print("### 4-hydroxyphenyllactic acid")
+display(HTML(tdf.to_html(index=False, classes='table')))
+fig = plot_gnps_hits(
+          tdf=tdf,
+          mgf=MGF_DATA_DICT,
+          GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR,
+          MSV000084900_DIR=MSV000084900_DIR,
+      )
+fig.show()
+```
+
+
+```{python}
+#| output: asis
+
+gnps_result_df = pd.read_csv(Path(GNPS2_RESULTS_DIR, 'nf_output/networking/clustersummary_with_network.tsv'), sep='\t', low_memory=False)
+tdf = gnps_result_df[gnps_result_df['SpectrumID'].isin(['CCMSLIB00010010644'])]
+print('### Histamine-C8:0')
+display(HTML(tdf.to_html(index=False, classes='table')))
+fig = plot_gnps_hits(
+          tdf=tdf,
+          mgf=MGF_DATA_DICT,
+          GNPS2_RESULTS_DIR=GNPS2_RESULTS_DIR,
+          MSV000084900_DIR=MSV000084900_DIR,
+      )
+fig.show()
+```
+

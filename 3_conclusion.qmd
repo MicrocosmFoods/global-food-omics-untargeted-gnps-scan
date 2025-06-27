@@ -1,0 +1,200 @@
+---
+title: "Search for fermentation metabolites in MSV000084900"
+author:
+  - name: Evoquant LLC
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    page-layout: full
+    toc: true
+    toc-depth: 3  
+    embed-resources: true  
+include-in-header:
+  - text: |
+      <style>
+        .table {
+          width: auto !important;
+          max-width: 100%;
+          overflow-x: auto; /* Enable horizontal scrolling */
+          display: block; /* Ensures scrolling works */
+          white-space: nowrap; /* Prevents wrapping of text */
+        }
+      </style>
+---
+
+This notebook synthesizes the automated and manual work done to identify fermentation metabolites in the MSV000084900 dataset. The results are saved to two CSV files.
+
+```{python}
+import pandas as pd
+from pathlib import Path
+import os
+
+TOP_DIR = os.getenv("TOP_DIR", ".")
+```
+
+# Curating results
+
+This table displays the manual curation of both running MSV000084900 through GNPS2 and its library search (`1_gnps2_molecular_networking.qmd`), as well as the custom search of the GNPS2 library (`2-1_custom_search.qmd` and `2-2_custom_search.qmd`). "quality" is subjective and based on manual inspection of the mirror plots comparing sample spectra to the GNPS library spectrum.
+
+```{python}
+results = {
+    "hyodeoxycholic acid": [{"gnps_cluster": 340197, "quality": "good", "species": "2M+H"}],
+    "Indole-3-lactic acid": [{"gnps_cluster": 2627, "quality": "questionable", "species": "M+H"}],
+    "Tryptophan": [
+        {"gnps_cluster": 2550, "quality": "good", "species": "M+H"},
+        {"gnps_cluster": 162573, "quality": "good", "species": "2M+H"},
+        {"gnps_cluster": 187158, "quality": "good", "species": "2M+Na"}
+    ],
+    "Indole-3-propionic acid": [{"gnps_cluster": 1453, "quality": "questionable", "species": "M+H"}],
+    "4-hydroxyphenyllactic acid": [{"gnps_cluster": 371, "quality": "questionable", "species": "M+H-H20"}],
+    "Hippuric acid": [
+        {"gnps_cluster": 659, "quality": "good", "species": "M+H"},
+        {"gnps_cluster": 111243, "quality": "good", "species": "2M+H"}
+    ],
+    "Serotonin": [{"gnps_cluster": 594, "quality": "good", "species": "M+H"}],
+    "D-phenyllactic acid": [{"gnps_cluster": 2813, "quality": "good", "species": "M+ACN+H"}],
+    "TMAO": [{"gnps_cluster": 131, "quality": "questionable", "species": "2M+H"}],
+    "Histamine-C8:0": [{"gnps_cluster": 8345, "quality": "good", "species": "M+H"}]
+}
+
+# Convert the results dictionary to a DataFrame
+gnps_list = []
+for compound, entries in results.items():
+    for entry in entries:
+        gnps_list.append({
+            "gnps_cluster_id": entry["gnps_cluster"],
+            "compound": compound,
+            "quality": entry["quality"],
+            "species": entry["species"],
+        })
+
+gnps_df = pd.DataFrame(gnps_list)
+gnps_df
+```
+
+# Filtered and modified GNPS2 presence/absence table
+
+Column guide:
+
+- compound: name of the compound
+- gnps_cluster_id: GNPS2 cluster ID
+- quality: subjective quality of the GNPS cluster
+- species: species of the GNPS cluster
+- avg_mz: average m/z of the GNPS cluster
+- avg_retention_time: average retention time of the GNPS cluster
+- *.mzXML:  presence (1) or absence (0) of the GNPS cluster in the corresponding file 
+
+First 5 rows of `results/result_compound_presence_table.tsv`:
+
+```{python}
+# Use the GNPS2 presence/absence table
+df=pd.read_csv(Path(TOP_DIR, "data/gnps2_results/18d82f1067e643538adf9b73147122c3/nf_output/clustering/featuretable_reformatted_presence.csv"))
+# Filter the GNPS presence/absence table for the specific gnps clusters specified gnps_df
+df = df.rename(columns={"row ID": "gnps_cluster_id", "row m/z": "avg_mz", "row retention time": "avg_retention_time"})
+df = df.merge(gnps_df, on="gnps_cluster_id", how="right")
+columns_order = ["compound", "gnps_cluster_id", "quality", "species"] + [col for col in df.columns if col not in ["compound", "gnps_cluster_id", "quality", "species"]]
+df = df[columns_order]
+df.columns = df.columns.str.replace(r"\.mzML Peak area", ".mzXML", regex=True)
+df = df.sort_values(by=["compound", "gnps_cluster_id"])
+df = df.reset_index(drop=True)
+# round retention time to 2 decimal places
+df["avg_retention_time"] = df["avg_retention_time"].round(2)
+# round mz to 4 decimal places
+df["avg_mz"] = df["avg_mz"].round(4)
+
+result_df = df.copy()
+result_df.to_csv(
+    Path(TOP_DIR, "results/result_compound_presence_table.tsv"), sep="\t",
+    index=False
+)
+del df, gnps_df, gnps_list, results
+result_df.head(n=5)
+
+```
+
+# Combined with provided metadata
+
+Merge the result presence/absence table with fermentation metadata table.
+
+Column guide:
+
+Following the provided metadata columns are numeric column names (e.g. 371, 2813, 559) which are the GNPS2 cluster IDs. The values in these columns indicate presence (1) or absence (0) of the corresponding GNPS2 cluster in the corresponding file.
+
+First 5 rows of `results/result_compound_presence_table_merged_with_metadata.tsv`:
+```{python}
+result_df = pd.read_csv(Path(TOP_DIR, "results/result_compound_presence_table.tsv"), sep="\t")
+df2 = pd.read_csv(Path(TOP_DIR,"data/Rachel-edited-2025-02-04-global-food-omics-fermented-samples - 2025-02-04-global-food-omics-fermented-samples.tsv"), sep="\t")
+
+df = result_df.set_index('gnps_cluster_id').T
+df2 = df2.merge(df, right_index=True, left_on='filename')
+# write 
+df2.to_csv(
+    Path(TOP_DIR, "results/result_compound_presence_table_merged_with_metadata.tsv"), sep="\t",
+    index=False
+) 
+
+df2.head(n=5)
+```
+
+# Example heatmap using Plotly. 
+
+Note that only every 50th label is shown on the x-axis to avoid cluttering the plot.
+```{python}
+import plotly.graph_objects as go
+import pandas as pd
+
+result_df = pd.read_csv(Path(TOP_DIR, "results/result_compound_presence_table.tsv"), sep="\t")
+df_numeric = result_df.drop(columns=["quality", "species", "avg_mz", "avg_retention_time"])
+df_numeric = df_numeric.loc[:, (df_numeric != 0).any(axis=0)]
+
+df_numeric["y_labels"] = df_numeric["compound"] + " (ID: " + df_numeric["gnps_cluster_id"].astype(str) + ")"
+
+y_labels = df_numeric["y_labels"]
+df_numeric = df_numeric.drop(columns=["gnps_cluster_id", "compound"])
+
+df2_filtered = df2[["filename", "fermented"]].copy()
+df2_filtered["fermented"] = df2_filtered["fermented"].fillna("unknown") \
+
+df2_filtered = df2_filtered.drop_duplicates(subset=["filename"])
+
+df_columns = pd.DataFrame({"filename": df_numeric.columns})
+df_columns = df_columns.merge(df2_filtered, on="filename", how="left").fillna("unknown")
+
+df_columns["fermented"] = pd.Categorical(df_columns["fermented"], categories=["yes", "no", "unknown"], ordered=True)
+df_columns_sorted = df_columns.sort_values(by="fermented")
+sorted_columns = df_columns_sorted["filename"].tolist()
+
+df_numeric = df_numeric[sorted_columns]
+
+fig = go.Figure(data=go.Heatmap(
+    z=df_numeric.values,
+    x=df_numeric.columns,
+    y=y_labels,
+    colorscale="Viridis",
+    showscale=False, 
+    text=[[f"Compound: {label}<br>File: {col}" for col in df_numeric.columns] for label in y_labels],
+    hoverinfo="text"
+))
+
+fermented_labels = df_columns_sorted["fermented"].tolist()
+n = max(1, len(fermented_labels) // 50)  # Adjust this value as needed
+tick_vals = list(range(0, len(fermented_labels), n))
+tick_text = [fermented_labels[i] for i in tick_vals]
+
+fig.update_layout(
+    title="Example Heatmap",
+    xaxis=dict(
+        title="", 
+        showticklabels=True,
+        tickmode="array",
+        tickvals=tick_vals,
+        ticktext=tick_text
+    ),
+    yaxis=dict(title="Compound (GNPS Cluster ID)"),
+    width=1000,
+    height=600
+)
+
+fig.show()
+```
